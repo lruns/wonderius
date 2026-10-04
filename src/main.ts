@@ -38,7 +38,8 @@ const projection = geoNaturalEarth1().fitExtent([[40, 30], [W - 40, H - 40]], { 
 const path = geoPath(projection);
 
 const stage = document.getElementById("stage") as HTMLElement;
-const svg = select(stage).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("preserveAspectRatio", "xMidYMid slice");
+const svg = select(stage).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("preserveAspectRatio", "xMidYMid meet");
+let viewportScale = Math.min(stage.clientWidth / W, stage.clientHeight / H);
 const defs = svg.append("defs");
 defs.append("pattern").attr("id", "waves").attr("width", 28).attr("height", 14).attr("patternUnits", "userSpaceOnUse")
   .append("path").attr("d", "M0,8 q7,-6 14,0 t14,0").attr("fill", "none").attr("stroke", "#9bbbb0").attr("stroke-width", 0.8).attr("opacity", 0.55);
@@ -89,6 +90,8 @@ const pins: Pin[] = places.map((place) => {
   const [x, y] = projection([place.lon, place.lat]) as [number, number];
   const r = place.wow !== null && place.wow <= 5 ? 17 : 13;
   const g = pinLayer.append("g").attr("class", "pin").classed("has-model", place.models.length > 0).attr("data-id", place.id);
+  g.attr("role", "button").attr("tabindex", 0).attr("aria-label", placeName(place));
+  g.append("circle").attr("r", 22).attr("fill", "transparent");
   g.append("ellipse").attr("class", "shadow").attr("cx", 2).attr("cy", r - 2).attr("rx", r * 0.8).attr("ry", r * 0.3);
   g.append("circle").attr("class", "ring").attr("r", r + 5);
   g.append("circle").attr("class", "disc").attr("r", r);
@@ -101,6 +104,11 @@ const pins: Pin[] = places.map((place) => {
   more.on("click", (ev: Event) => onPinClick(ev, place.id));
   g.append("g").attr("class", "stack").on("click", (ev: Event) => ev.stopPropagation());
   g.on("click", (ev: Event) => onPinClick(ev, place.id));
+  g.on("keydown", (ev: KeyboardEvent) => {
+    if (ev.key !== "Enter" && ev.key !== " ") return;
+    ev.preventDefault();
+    onPinClick(ev, place.id);
+  });
   return { place, x, y, r, g, node: g.node() as SVGGElement };
 });
 
@@ -182,8 +190,8 @@ function placeLabels(shown: Pin[]): void {
   const discs: Array<{ cx: number; cy: number; r: number }> = [];
   const labels: Box[] = [];
   for (const pin of shown) {
-    const sx = pin.x * k;
-    const sy = pin.y * k;
+    const sx = pin.x * k * viewportScale;
+    const sy = pin.y * k * viewportScale;
     const chosen = pin.place.id === currentId;
     pin.g.classed("nolabel", false);
     discs.push({ cx: sx, cy: sy, r: pin.r });
@@ -286,16 +294,16 @@ function layoutPins(): void {
   const shown: Pin[] = [];
   grouped.clear();
   for (const pin of ranked) {
-    const sx = pin.x * k;
-    const sy = pin.y * k;
+    const sx = pin.x * k * viewportScale;
+    const sy = pin.y * k * viewportScale;
     let host: Pin | null = null;
     let nearest = Infinity;
     for (const other of shown) {
-      const screen = Math.hypot(other.x * k - sx, other.y * k - sy);
+      const screen = Math.hypot(other.x * k * viewportScale - sx, other.y * k * viewportScale - sy);
       if (screen < other.r + pin.r + 10 && screen < nearest) { nearest = screen; host = other; }
     }
     pin.g.interrupt();
-    pin.node.setAttribute("transform", `translate(${pin.x},${pin.y}) scale(${1 / k})`);
+    pin.node.setAttribute("transform", `translate(${pin.x},${pin.y}) scale(${1 / (k * viewportScale)})`);
     if (host) {
       const list = grouped.get(host.place.id) ?? [];
       list.push(pin);
@@ -371,7 +379,7 @@ function scaleWhereVisible(pin: Pin): number {
       || (rank(other.place) === rank(pin.place) && other.place.id < pin.place.id);
     if (!earlier) continue;
     const geo = Math.hypot(other.x - pin.x, other.y - pin.y);
-    if (geo > 0) need = Math.max(need, ((other.r + pin.r + 14) / geo) * 1.05);
+    if (geo > 0) need = Math.max(need, ((other.r + pin.r + 14) / (geo * viewportScale)) * 1.05);
   }
   return Math.min(MAX_K, need);
 }
@@ -410,12 +418,23 @@ measureLabelWidths();
 layoutPins();
 
 function refreshLabelWidths(): void {
-  if (!measureLabelWidths()) return;
+  viewportScale = Math.max(0.01, Math.min(stage.clientWidth / W, stage.clientHeight / H));
+  measureLabelWidths();
   lastVisibleKey = null;
   layoutPins();
 }
 void document.fonts.ready.then(refreshLabelWidths);
 window.addEventListener("resize", refreshLabelWidths);
+new ResizeObserver(refreshLabelWidths).observe(stage);
+
+for (const [id, factor] of [["zoom-in", 1.6], ["zoom-out", 1 / 1.6]] as const) {
+  document.getElementById(id)?.addEventListener("click", () => {
+    (svg.transition().duration(350) as never as { call: (f: unknown, factor: number) => void }).call(zoomer.scaleBy, factor);
+  });
+}
+document.getElementById("zoom-home")?.addEventListener("click", () => {
+  (svg.transition().duration(600) as never as { call: (f: unknown, transform: unknown) => void }).call(zoomer.transform, zoomIdentity);
+});
 
 // Deep link: index.html#derinkuyu opens that place's card (the camera stays where it is).
 const fromHash = decodeURIComponent(location.hash.slice(1));
@@ -430,6 +449,12 @@ document.documentElement.lang = lang;
 const setText = (id: string, text: string): void => { const el = document.getElementById(id); if (el) el.textContent = text; };
 setText("h1", t("title")); setText("tagline", t("tagline"));
 setText("random", t("random"));
+setText("map-hint", t("mapHint"));
+for (const [id, key] of [["zoom-in", "zoomIn"], ["zoom-out", "zoomOut"], ["zoom-home", "wholeWorld"]] as const) {
+  const button = document.getElementById(id);
+  button?.setAttribute("aria-label", t(key));
+  button?.setAttribute("title", t(key));
+}
 setText("legend", t("legend"));
 setText("legend-all", t("legendAll"));
 setText("legend-model", t("legendModel"));

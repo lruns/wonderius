@@ -114,8 +114,6 @@ html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font:17p
 
 @media (max-width:760px){
   .title h1{font-size:30px}
-  .card{left:12px;right:12px;top:auto;bottom:44px;width:auto;max-height:68%}
-  .card .hero{height:170px}
 }
 
 .rand{position:static;border:2px solid var(--ink);background:var(--gold);color:var(--ink);padding:9px 16px;border-radius:4px;font:700 15px "Alice",Georgia,serif;cursor:pointer}
@@ -151,7 +149,7 @@ body:not(.intro-on) .intro{opacity:0;transform:scale(1.12);pointer-events:none}
 #stage{transition:transform 1.2s ease}
 body.intro-on #stage{transform:scale(1.08)}
 .credit{opacity:1}
-@media (max-width:760px){.title.min h1{font-size:20px}.card{top:60px}}
+@media (max-width:760px){.title.min h1{font-size:20px}}
 
 .decor path{fill:var(--ink)}
 
@@ -169,3 +167,56 @@ body.intro-on #stage{transform:scale(1.08)}
 .lb-nav button{border:1.5px solid var(--ink);background:var(--paper);border-radius:4px;padding:4px 12px;font:inherit;cursor:pointer}
 .lb-close{position:absolute;right:20px;top:16px;width:40px;height:40px;border-radius:50%;border:2px solid var(--ink);background:var(--paper);font:24px/1 serif;cursor:pointer}
 .card .hero,.thumbs button{cursor:zoom-in}
+
+/* The atlas fits the viewport; the paper frame and controls stay within safe areas. */
+html,body{height:100%;overflow:hidden}
+#app{height:100dvh;min-height:0}
+#stage{background:var(--sea)}
+.map-controls{position:absolute;right:24px;bottom:24px;z-index:3;display:flex;gap:6px}
+.map-controls button{width:44px;height:44px;border:1.5px solid var(--ink);border-radius:4px;background:var(--paper);color:var(--ink);font:24px/1 "Alice",Georgia,serif;cursor:pointer;touch-action:manipulation}
+.map-hint{display:none}
+.cluster{max-height:calc(100dvh - 32px);overflow:auto;overscroll-behavior:contain}
+.cluster button{min-height:44px}
+.card{overscroll-behavior:contain;scrollbar-gutter:stable}
+.card .close{width:44px;height:44px;right:8px;top:8px}
+
+@media (max-width:760px){
+  #app{border:0;outline:none}
+  #stage{inset:0}
+  .title{left:14px;top:max(8px,env(safe-area-inset-top))}
+  .title.min h1,.title.min:hover h1{font-size:18px}
+  .title.min p,.title.min:hover p{display:none;max-height:0;margin:0;opacity:0}
+  .lang{right:10px;top:max(8px,env(safe-area-inset-top));min-width:0;min-height:0;padding:4px 8px}
+  .cont-label{font-size:24px;letter-spacing:.1em}
+  .map-hint{display:none}
+  .dock{left:12px;right:auto;width:max-content;align-items:flex-start;bottom:max(12px,env(safe-area-inset-bottom))}
+  .dock-row{flex-wrap:nowrap;width:max-content;max-width:none}
+  .legend-slot{display:flex;align-items:flex-end}
+  .credit{width:auto}
+  .credit-body{position:absolute;left:0;bottom:100%;width:max-content;max-width:calc(100vw - 24px);max-height:48dvh;overflow:auto}
+  .foot-bar{white-space:nowrap}
+  .legend-plate{max-width:calc(100vw - 36px);max-height:48dvh;overflow:auto}
+  .legend-plate button{min-height:44px}
+  .map-controls{right:12px;bottom:max(12px,env(safe-area-inset-bottom));gap:4px}
+  .map-controls button{width:32px;height:32px;font-size:18px}
+  .card{position:fixed;inset:0;left:0;right:0;top:0;bottom:0;width:100%;height:100%;max-height:none;border:0;border-radius:0;padding:max(8px,env(safe-area-inset-top)) 8px max(8px,env(safe-area-inset-bottom));z-index:30}
+  .plate{border-width:4px;padding:12px 10px 16px;min-height:0}
+  .card h2{font-size:28px;overflow-wrap:anywhere}
+  .card .meta,.card .credit-line,.stamp figcaption{overflow-wrap:anywhere}
+  .viewer iframe{height:clamp(190px,30dvh,300px)}
+  .stamp .hero{height:190px}
+  .beads{overflow-x:auto;max-width:100%}
+  .beads button{flex:none}
+  .lb{padding:10px}
+  .lb-box{width:100%;max-height:88dvh}
+  .lb-stage{height:54dvh}
+  .lb-info{max-height:26dvh;overflow:auto;padding:10px 12px}
+  .lb-close{right:12px;top:max(12px,env(safe-area-inset-top))}
+}
+@media (max-width:360px){.rand{font-size:13px}.map-controls{gap:2px}.map-controls button{width:36px}}
+@media (max-height:500px) and (max-width:900px){
+  #stage{top:0;bottom:0}
+  .title.min p,.map-hint{display:none}
+  .dock{flex-direction:row;align-items:center;gap:10px}
+  .card{position:fixed;inset:0;width:100%;height:100%;max-height:none;border:0;border-radius:0}
+}

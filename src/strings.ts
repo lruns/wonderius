@@ -6,6 +6,10 @@ export const dict = {
   title: { ru: "Чудериус", en: "Wonderius" },
   tagline: { ru: "Атлас чудес мира", en: "An atlas of the world's wonders" },
   hint: { ru: "Тыкай в значок на карте", en: "Tap a pin on the map" },
+  mapHint: { ru: "Приближай карту · нажимай на чудеса", en: "Zoom the map · tap a wonder" },
+  zoomIn: { ru: "Приблизить", en: "Zoom in" },
+  zoomOut: { ru: "Отдалить", en: "Zoom out" },
+  wholeWorld: { ru: "Весь мир", en: "Whole world" },
   introInspired: {
     ru: "Вдохновлено книгой «Карты» Александры и Даниэля Мизелиньских: мы взяли у неё дух и приёмы, рисунки у нас свои.",
     en: "Inspired by the book \"Maps\" by Aleksandra and Daniel Mizielinski: we took its spirit and ideas; the drawings are our own.",

@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Wonderius</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
@@ -15,6 +15,12 @@
     <p id="tagline"></p>
   </header>
   <div id="stage"></div>
+  <p id="map-hint" class="map-hint"></p>
+  <div class="map-controls">
+    <button id="zoom-in" type="button">+</button>
+    <button id="zoom-out" type="button">−</button>
+    <button id="zoom-home" type="button">⌂</button>
+  </div>
   <button id="lang" class="lang" type="button"></button>
   <section id="card" class="card" hidden></section>
   <div class="dock">

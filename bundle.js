@@ -7332,6 +7332,10 @@
     title: { ru: "Чудериус", en: "Wonderius" },
     tagline: { ru: "Атлас чудес мира", en: "An atlas of the world's wonders" },
     hint: { ru: "Тыкай в значок на карте", en: "Tap a pin on the map" },
+    mapHint: { ru: "Приближай карту · нажимай на чудеса", en: "Zoom the map · tap a wonder" },
+    zoomIn: { ru: "Приблизить", en: "Zoom in" },
+    zoomOut: { ru: "Отдалить", en: "Zoom out" },
+    wholeWorld: { ru: "Весь мир", en: "Whole world" },
     introInspired: {
       ru: "Вдохновлено книгой «Карты» Александры и Даниэля Мизелиньских: мы взяли у неё дух и приёмы, рисунки у нас свои.",
       en: 'Inspired by the book "Maps" by Aleksandra and Daniel Mizielinski: we took its spirit and ideas; the drawings are our own.'
@@ -7564,7 +7568,8 @@
   var projection2 = naturalEarth1_default().fitExtent([[40, 30], [W - 40, H - 40]], { type: "Sphere" });
   var path = path_default(projection2);
   var stage = document.getElementById("stage");
-  var svg = select_default2(stage).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("preserveAspectRatio", "xMidYMid slice");
+  var svg = select_default2(stage).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("preserveAspectRatio", "xMidYMid meet");
+  var viewportScale = Math.min(stage.clientWidth / W, stage.clientHeight / H);
   var defs = svg.append("defs");
   defs.append("pattern").attr("id", "waves").attr("width", 28).attr("height", 14).attr("patternUnits", "userSpaceOnUse").append("path").attr("d", "M0,8 q7,-6 14,0 t14,0").attr("fill", "none").attr("stroke", "#9bbbb0").attr("stroke-width", 0.8).attr("opacity", 0.55);
   var root2 = svg.append("g");
@@ -7613,6 +7618,8 @@
     const [x, y] = projection2([place.lon, place.lat]);
     const r = place.wow !== null && place.wow <= 5 ? 17 : 13;
     const g = pinLayer.append("g").attr("class", "pin").classed("has-model", place.models.length > 0).attr("data-id", place.id);
+    g.attr("role", "button").attr("tabindex", 0).attr("aria-label", placeName(place));
+    g.append("circle").attr("r", 22).attr("fill", "transparent");
     g.append("ellipse").attr("class", "shadow").attr("cx", 2).attr("cy", r - 2).attr("rx", r * 0.8).attr("ry", r * 0.3);
     g.append("circle").attr("class", "ring").attr("r", r + 5);
     g.append("circle").attr("class", "disc").attr("r", r);
@@ -7625,6 +7632,11 @@
     more.on("click", (ev) => onPinClick(ev, place.id));
     g.append("g").attr("class", "stack").on("click", (ev) => ev.stopPropagation());
     g.on("click", (ev) => onPinClick(ev, place.id));
+    g.on("keydown", (ev) => {
+      if (ev.key !== "Enter" && ev.key !== " ") return;
+      ev.preventDefault();
+      onPinClick(ev, place.id);
+    });
     return { place, x, y, r, g, node: g.node() };
   });
   var k = 1;
@@ -7688,8 +7700,8 @@
     const discs = [];
     const labels = [];
     for (const pin of shown) {
-      const sx = pin.x * k;
-      const sy = pin.y * k;
+      const sx = pin.x * k * viewportScale;
+      const sy = pin.y * k * viewportScale;
       const chosen = pin.place.id === currentId;
       pin.g.classed("nolabel", false);
       discs.push({ cx: sx, cy: sy, r: pin.r });
@@ -7787,19 +7799,19 @@
     const shown = [];
     grouped.clear();
     for (const pin of ranked) {
-      const sx = pin.x * k;
-      const sy = pin.y * k;
+      const sx = pin.x * k * viewportScale;
+      const sy = pin.y * k * viewportScale;
       let host = null;
       let nearest = Infinity;
       for (const other of shown) {
-        const screen = Math.hypot(other.x * k - sx, other.y * k - sy);
+        const screen = Math.hypot(other.x * k * viewportScale - sx, other.y * k * viewportScale - sy);
         if (screen < other.r + pin.r + 10 && screen < nearest) {
           nearest = screen;
           host = other;
         }
       }
       pin.g.interrupt();
-      pin.node.setAttribute("transform", `translate(${pin.x},${pin.y}) scale(${1 / k})`);
+      pin.node.setAttribute("transform", `translate(${pin.x},${pin.y}) scale(${1 / (k * viewportScale)})`);
       if (host) {
         const list = grouped.get(host.place.id) ?? [];
         list.push(pin);
@@ -7870,7 +7882,7 @@
       const earlier = rank(other.place) < rank(pin.place) || rank(other.place) === rank(pin.place) && other.place.id < pin.place.id;
       if (!earlier) continue;
       const geo = Math.hypot(other.x - pin.x, other.y - pin.y);
-      if (geo > 0) need = Math.max(need, (other.r + pin.r + 14) / geo * 1.05);
+      if (geo > 0) need = Math.max(need, (other.r + pin.r + 14) / (geo * viewportScale) * 1.05);
     }
     return Math.min(MAX_K, need);
   }
@@ -7903,12 +7915,22 @@
   measureLabelWidths();
   layoutPins();
   function refreshLabelWidths() {
-    if (!measureLabelWidths()) return;
+    viewportScale = Math.max(0.01, Math.min(stage.clientWidth / W, stage.clientHeight / H));
+    measureLabelWidths();
     lastVisibleKey = null;
     layoutPins();
   }
   void document.fonts.ready.then(refreshLabelWidths);
   window.addEventListener("resize", refreshLabelWidths);
+  new ResizeObserver(refreshLabelWidths).observe(stage);
+  for (const [id2, factor] of [["zoom-in", 1.6], ["zoom-out", 1 / 1.6]]) {
+    document.getElementById(id2)?.addEventListener("click", () => {
+      svg.transition().duration(350).call(zoomer.scaleBy, factor);
+    });
+  }
+  document.getElementById("zoom-home")?.addEventListener("click", () => {
+    svg.transition().duration(600).call(zoomer.transform, identity2);
+  });
   var fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash) selectPlace(fromHash);
   decorLayer.attr("opacity", 0.22);
@@ -7921,6 +7943,12 @@
   setText("h1", t("title"));
   setText("tagline", t("tagline"));
   setText("random", t("random"));
+  setText("map-hint", t("mapHint"));
+  for (const [id2, key] of [["zoom-in", "zoomIn"], ["zoom-out", "zoomOut"], ["zoom-home", "wholeWorld"]]) {
+    const button = document.getElementById(id2);
+    button?.setAttribute("aria-label", t(key));
+    button?.setAttribute("title", t(key));
+  }
   setText("legend", t("legend"));
   setText("legend-all", t("legendAll"));
   setText("legend-model", t("legendModel"));
