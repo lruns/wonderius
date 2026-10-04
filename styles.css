@@ -102,3 +102,6 @@ body.intro-on #stage{transform:scale(1.08)}
 .credit{opacity:.0;transition:opacity .6s}
 body:not(.intro-on) .credit{opacity:1}
 @media (max-width:760px){.title.min h1{font-size:20px}.card{top:60px}}
+
+.pin .mini path{fill:var(--ink)}
+.pin.dot .mini{display:none}
