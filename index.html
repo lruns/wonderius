@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wonderius</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-on">
+<div id="app">
+  <div class="frame"></div>
+  <header class="title" id="head">
+    <h1 id="h1"></h1>
+    <p id="tagline"></p>
+  </header>
+  <div id="stage"></div>
+  <button id="random" class="rand" type="button"></button>
+  <button id="lang" class="lang" type="button"></button>
+  <section id="card" class="card" hidden></section>
+  <footer class="credit" id="credit"></footer>
+
+  <div id="intro" class="intro">
+    <div class="intro-frame"></div>
+    <svg class="intro-compass" viewBox="-60 -60 120 120" aria-hidden="true">
+      <circle r="42" fill="none" stroke="#4A3024" stroke-width="1.2"/><circle r="32" fill="none" stroke="#4A3024" stroke-width="1" stroke-dasharray="2 3"/>
+      <path d="M0,-54 L7,-7 L54,0 L7,7 L0,54 L-7,7 L-54,0 L-7,-7 Z" fill="#F3E6C8" stroke="#4A3024" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M0,-54 L7,-7 L0,0 Z" fill="#D63A32" stroke="#4A3024" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M0,54 L-7,7 L0,0 Z" fill="#F3C96B" stroke="#4A3024" stroke-width="1.2" stroke-linejoin="round"/>
+    </svg>
+    <div class="intro-body">
+      <h2 id="introTitle"></h2>
+      <p class="intro-tag" id="introTag"></p>
+      <button id="enter" class="btn" type="button"></button>
+      <p class="intro-note" id="introNote"></p>
+    </div>
+  </div>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>
