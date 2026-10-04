@@ -4369,7 +4369,21 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "В шахте Найка, в Чиуауа, есть зал примерно в трёхстах метрах под землёй. В длину он около 109 метров, а объём оценивают в 5–6 тысяч кубометров. Когда зал не затоплен, воздух там доходит до 58 градусов, а влажность держится между 90 и 99 процентами.",
+          en: "In the Naica Mine, in Chihuahua, there is a chamber about 300 metres underground. It is roughly 109 metres long, and its volume is given as 5,000 to 6,000 cubic metres. When it is not flooded, the air reaches up to 58 °C, and the humidity stays between 90 and 99 percent."
+        },
+        {
+          ru: "Самый большой кристалл селенита, о котором здесь пишут, длиной 11,4 метра. Массу его оценивают в 12 тонн. Это одна глыба, не щепотка гипса с полки.",
+          en: "The largest selenite crystal reported here is 11.4 metres long. Its mass is estimated at 12 tonnes. That is one crystal, not a pinch of gypsum from a shelf."
+        },
+        {
+          ru: "Нашли зал братья Хуан и Педро Санчес в апреле 2000 года, пока бурили породу. К октябрю 2015 года шахту снова затопило. Зал опять стоит полный воды.",
+          en: "Brothers Juan and Pedro Sánchez found the chamber in April 2000, while they were drilling. By October 2015 the mine had flooded again. The chamber was full of water once more."
+        }
+      ]
     },
     {
       id: "hal-saflieni",
@@ -4402,19 +4416,37 @@
       tours: [],
       sources: [
         {
-          url: "https://heritagemalta.org/hal-saflieni-hypogeum/",
-          label: "heritagemalta.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/%C4%A6al_Saflieni_Hypogeum",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://heritagemalta.org/hal-saflieni-hypogeum/",
+          label: "heritagemalta.org"
         },
         {
           url: "https://whc.unesco.org/en/list/130/",
           label: "whc.unesco.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "В Паоле — три яруса в мягком глобигериновом известняке. И Википедия, и Heritage Malta описывают это так. В 1902 году в Паоле рабочие резали цистерны под новые дома и проломили крышу: так пишет Википедия. Heritage Malta рассказывает это иначе: каменщик копал фундаменты под дома и наткнулся на гипогей случайно. Heritage Malta добавляет площадь в 500 квадратных метров и самую глубокую комнату в 10,6 метра под уровнем дороги.",
+          en: "In Paola there are three levels in soft globigerina limestone. Both Wikipedia and Heritage Malta describe it that way. In 1902 workers cutting cisterns for new houses in Paola broke through the roof: that is what Wikipedia says. Heritage Malta tells it as a stone mason, laying foundations for houses, who found the Hypogeum by accident. Heritage Malta adds a footprint of 500 square metres and a deepest room 10.6 metres under the road."
+        },
+        {
+          ru: "Википедия считает это место святилищем и некрополем и говорит об останках более чем семи тысяч человек. Даты не сходятся: Heritage Malta пишет, что гипогеем пользовались с 4000 по 1500 год до нашей эры, английская Википедия относит сафлиенскую фазу к 3300–3000 годам до нашей эры и отдельно допускает использование примерно с 4000 до 2500 года до нашей эры, а короткая подпись ЮНЕСКО говорит, что его вырубили около 2500 года до нашей эры, хотя в другом месте той же страницы назван срок примерно с 4000 по 2500 год до нашей эры.",
+          en: "Wikipedia calls it a sanctuary and a necropolis, with the estimated remains of more than 7,000 people. The dates do not agree: Heritage Malta says it was in use between 4000 BC and 1500 BC, English Wikipedia dates the Saflieni phase to 3300–3000 BC and also says the site may have been used from about 4000 BC until around 2500 BC, and UNESCO's short text says it was excavated around 2500 BC, while another passage on the same UNESCO page gives use from about 4000 BC to 2500 BC."
+        },
+        {
+          ru: "На среднем ярусе есть Комната оракула: любой голос внутри даёт сильный резонанс, и страница лишь допускает, что нишу могли сделать под пение или барабан. «Святая святых», как пишет Википедия, развёрнута так, чтобы свет зимнего солнцестояния падал на фасад из старого проёма сверху, и костей в этой комнате не нашли. Глиняную фигурку, которую зовут Спящей дамой, достали из Главного зала.",
+          en: "On the middle level, any voice made in the Oracle Room sets up a strong resonance, and the page only says the niche was possibly cut for chanting or drumming. The Holy of Holies, Wikipedia says, seems to have been oriented so that winter-solstice light would fall on its facade from the old opening above, and no bones were found in that room. The clay figure called the Sleeping Lady came out of the Main Chamber."
+        },
+        {
+          ru: "С 1991 по 2000 год гипогей был закрыт для посетителей: шла реставрация и подготовка к визитам. Википедия пишет, что Heritage Malta пускает только 80 человек в день и строго следит за микроклиматом. Площадку снова закрыли в сентябре 2016 года и открыли для гостей 15 мая 2017 года.",
+          en: "From 1991 to 2000 the Hypogeum was closed to visitors for restoration and to prepare it for visits. Wikipedia says Heritage Malta allows only 80 people a day, and keeps a strict watch on the microclimate. The site closed again in September 2016 and reopened to visitors on 15 May 2017."
+        }
+      ]
     },
     {
       id: "son-doong",
@@ -4451,7 +4483,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "Шондонг лежит в национальном парке Фонгня-Кебанг, провинция Куангчи, у границы с Лаосом. Википедия называет его самой большой природной пещерой и самым большим известным пещерным ходом по объёму. Внутри течёт быстрая река, а поперечное сечение, как там считают, вдвое больше следующего хода, в пещере Дир в Малайзии.",
+          en: "Sơn Đoòng lies in Phong Nha–Kẻ Bàng National Park, Quảng Trị province, near the border with Laos. Wikipedia calls it the world's largest natural cave, and the largest known cave passage by volume. A fast river runs inside, and the cross-section is believed to be twice that of the next largest passage, in Deer Cave, Malaysia."
+        },
+        {
+          ru: "10 декабря 1990 года местный человек по имени Хо Кхань нашёл вход, пока искал алойное дерево. Шум воды и сильный ветер отпугнули его, и к дому он уже забыл точное место. Вход он отыскал снова в 2008 году, а с 10 по 14 апреля 2009 года привёл туда экспедицию Британской ассоциации исследования пещер.",
+          en: "On 10 December 1990 a local man, Hồ Khanh, found the entrance while searching for agarwood. The sound of rushing water and a strong wind turned him back, and by the time he got home he had forgotten the exact place. He found the entrance again in 2008, and from 10 to 14 April 2009 he led a British Cave Research Association expedition to it."
+        },
+        {
+          ru: "Та экспедиция насчитала объём в 38 500 000 кубометров и остановилась у стены из натёка высотой 60 метров: её назвали Великой стеной Вьетнама. Основной ход описывают так: больше 5 километров в длину, 200 метров в высоту и 150 в ширину. В марте 2010 года стену прошли и оценили всю систему больше чем в 9 километров. Где потолок провалился, внутрь попадает солнце, растут деревья, а сталагмиты доходят до 80 метров.",
+          en: "That expedition measured a volume of 38,500,000 cubic metres and stopped at a flowstone wall 60 metres high, which they named the Great Wall of Vietnam. The main passage is described as more than 5 kilometres long, 200 metres high and 150 metres wide. In March 2010 they crossed the wall and estimated the whole system at more than 9 kilometres. Where the ceiling has collapsed, sunlight enters, trees grow, and stalagmites reach 80 metres."
+        },
+        {
+          ru: "Возраст пещеры оценивают между двумя и пятью миллионами лет. Первая группа туристов прошла её в начале августа 2013 года, по 3000 долларов с человека. С 2017 года водить людей может только Oxalis Adventure Tours, а с сентября по декабрь пещера для туристов закрыта. План канатной дороги через неё местные власти в итоге отменили.",
+          en: "The cave is believed to be between two and five million years old. The first tourist group went through in early August 2013, at 3,000 US dollars a person. Since 2017 only Oxalis Adventure Tours may take visitors in, and from September to December the cave is closed to tourism. A plan for a cable car through it was in the end cancelled by the local government."
+        }
+      ]
     },
     {
       id: "longyou",
@@ -4488,7 +4538,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "На холме Фэнхуан, в уезде Лунъю провинции Чжэцзян, стоят 24 рукотворные пещеры в песчанике. Когда их вырубили, страница говорит прямо: неизвестно. В поэме XVII века, у Юй Сюня, они уже упомянуты.",
+          en: "On Fenghuang Hill, in Longyou County, Zhejiang, there are 24 artificial caves cut in sandstone. When they were made, the page says outright, is unknown. A 17th-century poem by Yu Xun already mentions them."
+        },
+        {
+          ru: "В июне 1992 года четверо крестьян спустили воду из пяти маленьких прудов в своей деревне. Пруды оказались пятью огромными рукотворными залами, а потом рядом нашли ещё девятнадцать. Залы стоят близко, сделаны одинаково и, судя по тексту, для одного неизвестного дела, но хода из одного в другой нет.",
+          en: "In June 1992 four farmers drained five small ponds in their village. The ponds turned out to be five huge man-made halls, and further searching found nineteen more nearby. The caves sit close together, built the same way and apparently for one unknown purpose, yet there is no passage from one into the next."
+        },
+        {
+          ru: "Пол каждого зала в среднем больше 1000 квадратных метров, а потолки поднимаются до 30 метров. Стены, потолок и столбы отделаны одинаково: полосы шириной около 60 сантиметров, и следы резца идут под углом около 60 градусов к полосе. Своды, стены и столбы, как пишет страница, с тех пор остались целы.",
+          en: "The average floor of each cave is over 1,000 square metres, and the ceilings rise as high as 30 metres. Walls, ceiling and pillars are finished the same way: bands about 60 centimetres wide, with chisel marks at about 60 degrees to the band. The page says those ceilings, walls and pillars have stayed whole ever since."
+        },
+        {
+          ru: "В иле внутри нашли глину от горшков, датированную временем между 206 годом до нашей эры и 23 годом нашей эры. Это дата того, что лежало в наносе, а не доказанный день рубки. В том же тексте есть фраза, что пещеры сочли старше двух тысяч лет, хотя начало статьи по-прежнему говорит: время создания неизвестно.",
+          en: "In the silt inside they found clay from pots dated between 206 BC and 23 AD. That dates what was lying in the mud, not a proven day of carving. The same article also says the caves have been determined to be more than 2,000 years old, while its opening still says that when they were made is unknown."
+        }
+      ]
     },
     {
       id: "damanhur",
@@ -4525,7 +4593,21 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "В долине Валькьюзелла, примерно в 50 километрах от Турина, Федерация Даманхур выкопала храмы на глубине 30 метров. Росписи, как пишет страница, говорят о мирном сотрудничестве людей. У залов есть имена: Зал воды, Синий зал, Зал земли, Зал металлов, Зал-лабиринт, Зал сфер и Зал зеркал.",
+          en: "In the Valchiusella valley, about 50 kilometres from Turin, the Federation of Damanhur dug temples 30 metres underground. The decoration, the page says, stresses peaceful human collaboration. The rooms have names: the Hall of Water, the Blue Hall, the Hall of Earth, the Hall of Metals, the Labyrinth Hall, the Hall of Spheres and the Hall of Mirrors."
+        },
+        {
+          ru: "Оберто Айрауди рассказывал, что в десять лет видел древние храмы, из другой жизни, как он это называл. Копать начали в августе 1978 года. К 1991 году, пишет страница, большая часть залов, по рассказам, уже была готова, и итальянская полиция пришла после наводки от жителей.",
+          en: "Oberto Airaudi said that at ten he had seen ancient temples, from a previous life, as he claimed. Digging began in August 1978. By 1991, the page says, most of the chambers were reportedly complete, and Italian police came after a tip from the villagers."
+        },
+        {
+          ru: "Храмы были спрятаны так хорошо, что полиция их не находила. Википедия приводит слова прокурора Бруно Тинти: покажите эти храмы, или мы взорвём весь холм. Дальше страница пишет, что разрешение на раскопки и постройку, по рассказам, дали задним числом, и теперь внутрь пускают гостей.",
+          en: "The temples were hidden so well that the police could not find them. Wikipedia quotes state prosecutor Bruno Tinti: show us these temples or we will dynamite the entire hillside. The page then says the government reportedly granted permission after the fact, and the temples are now open to visitors."
+        }
+      ]
     },
     {
       id: "salina-turda",
@@ -4573,19 +4655,37 @@
       tours: [],
       sources: [
         {
-          url: "https://www.salinaturda.eu/en/locatie/rudolf-mine/",
-          label: "salinaturda.eu"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Salina_Turda",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://www.salinaturda.eu/en/locatie/rudolf-mine/",
+          label: "salinaturda.eu"
         },
         {
           url: "https://www.salinaturda.eu/en/",
           label: "salinaturda.eu"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "Первая бумага, где прямо сказано, что в Турде есть соляная шахта, датирована 1 мая 1271 года. Соль здесь брали до 1932 года. Для гостей шахту открыли в 1992-м, как место соляного лечения и как достопримечательность, а после большой переделки снова пустили туристов в январе 2010-го. В 2017 году, пишет Википедия, здесь побывало около 618 тысяч человек.",
+          en: "The first document that speaks plainly of a salt mine in Turda is dated 1 May 1271. Salt was taken here until 1932. It opened for visitors in 1992, as a salt-therapy place and a sight to see, and after a major refit it was opened for tourism again in January 2010. Wikipedia says about 618,000 people came in 2017."
+        },
+        {
+          ru: "Зал Рудольфа на сайте самой шахты назван в честь принца Рудольфа Австрийского, и это последнее место, где в Турде добывали соль. Купол там описан как трапеция: 42 метра в глубину, 50 в ширину и 80 в длину. Вниз ведут 172 ступени и 13 этажей, и на каждой площадке на стене отмечен год, когда открыли этот уровень. Соляные сталактиты на северо-западном потолке растут примерно на 2 сантиметра в год и доходят примерно до 3 метров, вдоль прослоя соли чистотой выше 99,9 процента, а панорамный лифт показывает зал целиком.",
+          en: "On the mine's own page, the Rudolf hall is named for Prince Rudolf of Austria, and it was the last place salt was mined in Turda. The dome is described as trapezoidal: 42 metres deep, 50 wide and 80 long. The way down is 172 steps and 13 floors, and each landing has the year that level was opened marked on the wall. Salt stalactites on the northwestern ceiling grow about 2 centimetres a year and reach about 3 metres, along a band of salt purer than 99.9 percent, and a panoramic lift shows the whole hall."
+        },
+        {
+          ru: "Английская страница шахты называет эхо-камеру шахтой Иосифа. Википедия описывает тот же зал под именем Иосиф: конус глубиной 112 метров и шириной 67 метров у основания. Эхо там сильное из-за формы и потому, что зал почти не сообщается с другими большими выработками, и его зовут комнатой эха.",
+          en: "The mine's English page calls the echo chamber the Joseph mine. Wikipedia describes that same hall under the name Iosif: a cone 112 metres deep and 67 metres wide at the base. The echo is strong because of that shape and because the chamber barely opens into the other large workings, which is why it is called the Echoes Room."
+        },
+        {
+          ru: "Шахта Терезия в Википедии тоже колокол: около 90 метров в высоту и 87 метров в поперечнике. Озеро занимает примерно 80 процентов пола, глубина от полуметра до 8 метров, а посредине остров из остатков соли, сложенных здесь после 1880 года, когда добычу в этом зале кончили. На английском сайте шахты этот зал назван Theresa, и среди мест внутри указан ещё парк развлечений.",
+          en: "Wikipedia's Terezia mine is a bell as well: about 90 metres high and 87 metres across. A lake covers about 80 percent of the floor, from half a metre to 8 metres deep, with an island of leftover salt left in the middle after 1880, the year mining in that room ended. The mine's English site calls this hall Theresa, and also lists an amusement park among the places inside."
+        }
+      ]
     },
     {
       id: "kailasa",
@@ -4634,7 +4734,25 @@
           label: "whc.unesco.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "В Эллоре пещера 16 — храм Кайласа, самый большой из скальных храмов этого места. Археологи считают, что его высекли из одной скалы. Верх над святилищем стоит на 32,6 метра выше двора внизу.",
+          en: "At Ellora, Cave 16 is the Kailasa temple, the largest of the rock-cut temples on the site. Archaeologists believe it was sculpted from a single rock. The top of the structure over the sanctuary stands 32.6 metres above the court below."
+        },
+        {
+          ru: "Большую часть работы обычно относят к царю Раштракутов Кришне I, годы правления примерно 756–773, но своей закладной надписи у храма нет, и эта связь не до конца надёжна. ЮНЕСКО насчитывает в Эллоре 34 монастыря и храма на протяжении более двух километров базальтового обрыва, с памятниками от 600 до 1000 года нашей эры. Та же страница ЮНЕСКО относит брахманскую группу пещер, включая Кайласу, к VII–X векам.",
+          en: "Most of the work is generally attributed to the Rashtrakuta king Krishna I, whose reign is given as about 756 to 773, but the temple has no dedicatory inscription of its own, and that link is not completely certain. UNESCO counts 34 monasteries and temples at Ellora, extending over more than 2 kilometres of a basalt cliff, with monuments from AD 600 to 1000. The same UNESCO page dates the Brahmanical group, Kailasa included, to between the 7th and 10th centuries."
+        },
+        {
+          ru: "Резчики начинали с верха скалы и шли вниз. Двор внутри — 82 на 46 метров: посредине святилище Шивы, перед ним бык Нанди. В основании слоны высечены так, будто держат храм, а один рельеф показывает, как Равана пытается поднять гору.",
+          en: "The carvers started at the top of the rock and cut downward. The courtyard inside measures 82 by 46 metres, with a shrine to Shiva in the middle and his bull Nandi in front of it. Elephants are carved at the base as if they were holding the temple up, and one relief shows Ravana trying to lift the mountain."
+        },
+        {
+          ru: "Есть и более поздняя маратхская легенда. Самый ранний известный текст с ней — «Катха-кальпатару», примерно 1470–1535 годы: архитектор по имени Кокаса начинает храм сверху, чтобы царица увидела шикхару за неделю и могла прервать пост. Это рассказ, не дневник стройки. Сам приём, резать сверху вниз, страница описывает отдельно, как способ, которым храм высекали.",
+          en: "There is also a later Marathi legend. The earliest known text to tell it is the Katha-Kalpataru, of about 1470 to 1535: an architect named Kokasa starts the temple from the top so the queen can see the shikhara within a week and end her fast. That is a story, not a building diary. The page describes the top-down cut separately, as the way the temple was excavated."
+        }
+      ]
     },
     {
       id: "serapeum",
@@ -4664,7 +4782,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "Под Саккарой хоронили быков Аписа: в Мемфисе их считали воплощением бога Птаха. За примерно 1400 лет, от Нового царства до конца эпохи Птолемеев, таких погребений засвидетельствовано не меньше шестидесяти. Сначала были отдельные гробницы, потом подземные галереи, которые связывали камеры одну за другой.",
+          en: "Under Saqqara they buried the Apis bulls, which Memphis treated as incarnations of the god Ptah. Over about 1,400 years, from the New Kingdom to the end of the Ptolemaic period, at least sixty of those burials are attested. Isolated tombs came first, then underground galleries linking one chamber to the next."
+        },
+        {
+          ru: "С позднего периода большинства быков клали в каменные саркофаги весом около 40 тонн, с крышками около 25 тонн. В Больших склепах до сих пор стоят двадцать четыре таких ящика, и надписи есть только на четырёх. Чтобы опустить гроб, камеру засыпали песком, вдвигали ящик, а потом песок понемногу вынимали, и саркофаг садился на место.",
+          en: "From the Late Period onward, most of the bulls were placed in stone sarcophagi of about 40 tonnes, with lids of about 25 tonnes. Twenty-four of those boxes still stand in the Greater Vaults, and only four are inscribed. To lower one, the chamber was filled with sand, the coffin was moved in, and the sand was gradually taken away so the box settled into place."
+        },
+        {
+          ru: "В 1850 году Огюст Мариетт увидел в дюнах торчащую голову одного сфинкса, расчистил аллею и в ноябре следующего года вошёл в катакомбы. Он нашёл два погребения, до которых грабители не добрались. Большие склепы сейчас открыты для посетителей.",
+          en: "In 1850 Auguste Mariette found the head of one sphinx sticking out of the dunes, cleared the avenue, and in November the following year entered the catacombs. He found two burials that robbers had not reached. The Greater Vaults are open to visitors now."
+        },
+        {
+          ru: "До электрических ламп тоннели освещали свечами на деревянных стойках, а иногда ярким магниевым светом. В 1862 году тогдашний принц Уэльский, будущий Эдуард VII, пообедал со своей компанией внутри одного из саркофагов. Землетрясение в Каире в 1992 году дало трещины на стенах тоннелей, и Серапеум закрыли для публики. Сейчас страница говорит, что большая часть Больших склепов снова доступна туристам.",
+          en: "Before electric lamps, the tunnels were lit by candles on wooden stands, and sometimes by a bright magnesium light. In 1862 the then Prince of Wales, later Edward VII, ate lunch with his party inside one of the sarcophagi. The 1992 Cairo earthquake cracked the tunnel walls, and the Serapeum was closed to the public. The page says most of the Greater Vaults are accessible to tourists now."
+        }
+      ]
     },
     {
       id: "zipaquira",
@@ -4701,7 +4837,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "У города Сипакира, в горе каменной соли, на глубине 200 метров стоит действующая католическая церковь в тоннелях шахты. Сюда приходят и туристы, и паломники. По воскресеньям бывает до трёх тысяч человек, но епископа у храма нет, поэтому в строгом церковном смысле это не собор.",
+          en: "Near Zipaquirá, in a mountain of rock salt, a working Catholic church stands in the tunnels of a mine, 200 metres underground. Tourists and pilgrims both come. As many as 3,000 people may arrive on a Sunday, but the church has no bishop, so in the strict sense of the church it is not a cathedral."
+        },
+        {
+          ru: "Соль отложилась здесь около 250 миллионов лет назад, а позже поднялась вместе с Андами. Муиска добывали её уже в V веке до нашей эры. В 1801 году Александр фон Гумбольдт побывал в Сипакире и описал залежь как большую, чем главные соляные шахты его времени в Испании, Швейцарии, Польше и графстве Тироль.",
+          en: "The salt was laid down about 250 million years ago, and was later raised with the Andes. The Muisca were already mining it in the 5th century BC. In 1801 Alexander von Humboldt visited Zipaquirá and described the deposit as bigger than the main salt mines of his time, in Spain, Switzerland, Poland and the County of Tyrol."
+        },
+        {
+          ru: "Ещё до большой церкви, около 1932 года, шахтёры вырезали маленькое святилище, чтобы помолиться перед работой. Храм крупнее, посвящённый Богоматери Розария, покровительнице шахтёров, открыли 15 августа 1954 года. В сентябре 1992 года его закрыли: он был вырезан внутри действующей шахты, и за прочность уже опасались.",
+          en: "Years before the large church, around 1932, the miners carved a small sanctuary where they could pray before work. A larger church, dedicated to Our Lady of the Rosary, patron of miners, was inaugurated on 15 August 1954. It was shut in September 1992, because it had been carved inside an active mine and the structure was no longer thought safe."
+        },
+        {
+          ru: "Церковь, куда входят сейчас, открыли 16 декабря 1995 года: её собрали небольшими добавками к выработкам, которые шахтёры уже оставили. У входа 14 маленьких часовен стояний Крестного пути, вырезанных в соли. Три нефа отвечают рождению, жизни и смерти Иисуса, а четыре большие круглые колонны — четырём евангелистам.",
+          en: "The church people enter now was inaugurated on 16 December 1995, put together by small additions to tunnels the miners had already left. At the entrance are 14 small chapels of the Stations of the Cross, carved in the salt. Three naves stand for the birth, life and death of Jesus, and four large round columns stand for the four evangelists."
+        }
+      ]
     },
     {
       id: "bulla-regia",
@@ -4738,7 +4892,21 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "Возле нынешней Джендубы, в Тунисе, в городе Булла-Регия в эпоху Адриана дома строили наполовину под землёй. Дневной зной остаётся на поверхности, а комнаты уходят вниз, в грунт. Многие мозаичные полы оставили там, где их нашли.",
+          en: "Near present-day Jendouba, in Tunisia, in the town of Bulla Regia, houses were built half underground in Hadrian's time. The hot part of the day stays at the surface, and the rooms go down into the ground. Many mosaic floors were left where they were found."
+        },
+        {
+          ru: "Город по очереди был берберским, пуническим и римским. Чем он отмечен, так это этими домами: так укрывались от жары.",
+          en: "The town was in turn Berber, Punic and Roman. What it is noted for is these houses: it was protection from the heat."
+        },
+        {
+          ru: "Другие мозаичные полы хранятся в музее Бардо в Тунисе. На самом городище есть маленький музей.",
+          en: "Other mosaic floors are kept in the Bardo Museum in Tunis. There is a small museum on the site."
+        }
+      ]
     },
     {
       id: "orda",
@@ -4768,7 +4936,21 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "Сразу за Ордой, в Пермском крае, у реки Кунгур, под западным Уралом открывается гипсовая пещера. Система тянется больше чем на 5,1 километра, и около 4,8 километра из этого — под водой. Википедия зовёт её одной из самых длинных подводных пещер и самой большой подводной гипсовой пещерой в мире.",
+          en: "Just outside Orda, in Perm Krai, by the Kungur River and under the western Urals, a gypsum cave opens. The system stretches over 5.1 kilometres, and about 4.8 kilometres of that length is underwater. Wikipedia calls it one of the longest underwater caves, and the largest underwater gypsum cave in the world."
+        },
+        {
+          ru: "Вода очень прозрачная. Страница объясняет это так: породы вокруг богаты минералами и фильтруют поток. Дайверам приписывают видимость больше 50 ярдов, то есть 46 метров. Здесь же самый длинный сифон бывшего Советского Союза, 935 метров.",
+          en: "The water is very clear. The page explains it this way: the ground around the cave is rich in minerals and filters the flow. Divers are described as having visibility of more than 50 yards, which is 46 metres. The cave also holds the longest siphon in the former Soviet Union, 935 metres."
+        },
+        {
+          ru: "В 2011 году фотограф Виктор Лягушкин провёл около 150 экспедиций в пещеру за полгода. Снимки вошли в проект знакомства с Ординской пещерой, и эта команда первой сделала сферическую панораму подводной пещеры. Здесь погружались также Мартин Фарр, Ламар Хайрес, Паскаль Бернабе и Реджи Росс.",
+          en: "In 2011 the photographer Viktor Lyagushkin led about 150 expeditions into the cave over six months. The photographs went into the Orda Cave Awareness Project, and that team was the first to make a spherical panorama of an underwater cave. Martyn Farr, Lamar Hires, Pascal Bernabé and Reggie Ross have dived here as well."
+        }
+      ]
     },
     {
       id: "kapova",
@@ -4805,7 +4987,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "wow-candidates"
+      report: "wow-candidates",
+      story: [
+        {
+          ru: "На реке Белой, в южном Урале, пещеру зовут Шульган-Таш и ещё Капова. До Уфы отсюда около 200 километров на юго-восток. Вход — арка высотой около 30 метров, а система ходов около 3 километров. В башкирском эпосе это край Шульгена, царя подземного мира: так говорит предание, не датировка.",
+          en: "On the Belaya River, in the southern Urals, the cave is called Shulgan-Tash, and also Kapova. It lies about 200 kilometres southeast of Ufa. The entrance is an arch about 30 metres high, and the passage system is about 3 kilometres long. In Bashkir epic this is the country of Shulgen, a king of the underworld: that is legend, not a date."
+        },
+        {
+          ru: "В январе 1959 года Александр Рюмин спустился внутрь искать летучих мышей и нашёл на стенах лошадей, носорога и мамонтов. Известно больше 190 рисунков и росписей верхнего палеолита, и среди них единственное известное доисторическое изображение двугорбого верблюда. Эта находка раздвинула известный ареал такой пещерной живописи за пределы Западной Европы.",
+          en: "In January 1959 Alexander Ryumin went underground looking for bats and found horses, a rhinoceros and mammoths painted on the walls. More than 190 Upper Paleolithic paintings and drawings are known, among them the only known prehistoric painting of a two-humped camel. That find extended the known range of such cave painting beyond Western Europe."
+        },
+        {
+          ru: "Знаменитые фигуры, мамонты, лошади, носороги, бизоны и тот верблюд, находятся в 300 метрах от входа и дальше. Их делали красной охрой, иногда с контуром углём. Большая часть изображений в плохом состоянии, а относительно сохранны примерно 30–50. В 2025 году эти росписи внесли в список Всемирного наследия.",
+          en: "The famous figures, mammoths, horses, rhinoceroses, bison and that camel, lie 300 metres and more from the entrance. They are made in red ochre, sometimes outlined in charcoal. Most of the images are in a precarious state, and about 30 to 50 are relatively well preserved. In 2025 these paintings were added to the World Heritage List."
+        },
+        {
+          ru: "Возраст не складывается в одну цифру. Даты по урану и торию для кальцита под рисунками и поверх них дают примерно от 36 400 до 14 500 лет назад. Радиоуглерод культурных слоёв в пещере указывает на более узкий промежуток, около 16 300–19 600 лет назад. Это два способа, и страница не склеивает их в одну дату.",
+          en: "The age does not collapse into a single figure. Uranium-thorium dates on the calcite under the paintings and over them run from about 36,400 to 14,500 years ago. Radiocarbon dates from cultural layers in the cave point to a narrower span, about 16,300 to 19,600 years ago. Those are two methods, and the page does not weld them into one date."
+        }
+      ]
     },
     {
       id: "derinkuyu",
@@ -4859,10 +5059,6 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/281777097",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://muze.gov.tr/muze-detay?DistId=DKY&SectionId=DKY01",
           label: "muze.gov.tr"
         },
@@ -4873,9 +5069,31 @@
         {
           url: "https://tr.wikipedia.org/wiki/Derinkuyu_Yeraltı_Şehri",
           label: "tr.wikipedia.org"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/281777097",
+          label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Спускаешься, и пол всё не кончается. Музейная страница министерства пишет, что Деринкую уходит примерно на 85 метров: конюшни, кладовые, залы, где ели, церкви и место, где варили патоку. На втором ярусе школа для миссионеров, а вентиляционная шахта глубиной 55 метров была ещё и колодцем.",
+          en: "You go down, and the floor keeps going. The ministry museum page says Derinkuyu reaches about 85 metres: stables, cellars, dining halls, churches, and a place for boiling molasses. A missionary school sits on the second floor, and a ventilation shaft 55 metres deep was also a well."
+        },
+        {
+          ru: "Для гостей его открыли в 1965 году, и сегодня, по музейной странице и по порталу того же министерства, пройти можно лишь около десяти процентов. Портал называет город восьмиэтажным: часть ходов такая узкая, что проходит один человек, а закрывали их большими каменными цилиндрами. Там же, в отличие от Каймаклы, есть место для исповеди и крещальная купель.",
+          en: "It was opened to visitors in 1965, and both the museum page and the ministry portal say only about ten percent can be walked today. The portal calls it an eight-storey city: some passages are narrow enough for one person, and they were closed with large stone cylinders. Unlike Kaymaklı, it also has a place for confession and a baptismal pool."
+        },
+        {
+          ru: "Турецкая Википедия с этими цифрами не сходится. В её карточке город 85 метров и 13 ярусов, из них расчищены восемь, а нынешняя глубина 50 метров; ниже по тексту те же 85 метров названы уже прогнозом после полной расчистки, около 12–13 ярусов, а пустили посетителей, по этой статье, в 1967 году, не в 1965-м.",
+          en: "Turkish Wikipedia does not agree with those figures. Its infobox says the city is 85 metres and 13 floors, of which eight have been cleared, and that the depth now is 50 metres; further down, the same 85 metres are a forecast after full cleaning, about 12 or 13 floors, and the article dates the public opening to 1967, not 1965."
+        },
+        {
+          ru: "Та же музейная страница оценивает всю Каппадокию примерно в 150–200 подземных поселений, вырезанных вниз в мягкий туф. Летом в них прохладно, зимой теплее, чем на улице. Кухонь меньше, чем семей: готовили вместе, в тандырах, какие в сёлах Каппадокии топят до сих пор.",
+          en: "The same museum page estimates about 150 to 200 underground settlements in Cappadocia, carved down into soft tuff. They stay cool in summer and warmer than the open air in winter. There were fewer kitchens than families: people cooked together in tandoors still fired in Cappadocian villages."
+        }
+      ]
     },
     {
       id: "kaymakli",
@@ -4929,10 +5147,6 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/27151654",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://muze.gov.tr/muze-detay?SectionId=KYY01&DistId=KYY",
           label: "muze.gov.tr"
         },
@@ -4941,11 +5155,33 @@
           label: "kulturportali.gov.tr"
         },
         {
+          url: "https://www.openstreetmap.org/node/27151654",
+          label: "openstreetmap.org"
+        },
+        {
           url: "https://tr.wikipedia.org/wiki/Kaymaklı_Yeraltı_Şehri",
           label: "tr.wikipedia.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Древнее имя деревни на музейной странице — Энегюп. Дома стоят у ста или больше ходов, и жители до сих пор ходят по ним в погреба, кладовые и конюшни. Проходы низкие, узкие и идут под уклон, не так, как в Деринкую. Вскрыты четыре яруса, и комнаты собраны вокруг вентиляционных шахт.",
+          en: "The museum page gives the village an old name, Enegüp. Houses stand by a hundred or more tunnels, and people still use them as cellars, storerooms and stables. The passages are low, narrow and sloping, unlike Derinkuyu. Four floors have been unearthed, gathered around ventilation shafts."
+        },
+        {
+          ru: "Первый ярус — конюшни. На втором церковь: один неф, две апсиды, перед апсидой алтарь, по бокам скамьи. На третьем, кроме кладовых, виноделен и кухонь, лежит андезитовый блок с 57 отверстиями, чтобы дробить и молоть. Камень не принесли: он был частью слоя, который не выбрали, когда выдалбливали зал.",
+          en: "The first floor is stables, and the second is a church: one nave, two apses, an altar in front of the apse, and seats along the sides. On the third, besides storerooms, wineries and kitchens, there is an andesite block with 57 holes cut for crushing and grinding. The stone was not carried in: it was part of the layer left in place while the hall was hollowed out."
+        },
+        {
+          ru: "Город ещё не вскрыт целиком, и числа жителей страница не даёт. По обилию кладовых на тесной площади музей судит, что людей тут жило много, и среди уже исследованных подземных городов Каппадокии называет Каймаклы самым широким.",
+          en: "The city is not fully uncovered, and the page gives no headcount. From the number of storerooms in a tight area, the museum judges that a great many people lived here, and among the Cappadocian underground cities already explored it calls Kaymaklı the widest."
+        },
+        {
+          ru: "Портал того же министерства пишет иначе, чем музей: всего восемь ярусов, первый относит к хеттам, с 1964 года для визита открыты четыре, до Невшехира 20 километров, а музей говорит, что обнаружены четыре яруса, и века не называет. Какая из двух страниц права насчёт полного числа ярусов, они сами не решают.",
+          en: "The ministry portal disagrees with the museum: eight floors in all, the first dated to the Hittites, four open to visitors since 1964, 20 kilometres from Nevşehir, while the museum says four floors have been discovered and names no century. The two pages do not decide which count of floors is complete."
+        }
+      ]
     },
     {
       id: "ozkonak",
@@ -4992,10 +5228,6 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/1628116735",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://muze.gov.tr/muze-detay?sectionId=OZK01&distId=OZK",
           label: "muze.gov.tr"
         },
@@ -5006,9 +5238,31 @@
         {
           url: "https://www.nevsehir.gov.tr/ozkonak-yeralti-sehri",
           label: "nevsehir.gov.tr"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/1628116735",
+          label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Озконак в 14 километрах от Аваноса, на северном склоне горы Идиш, где вулканический туф лежит толстым слоем. Галереи расходятся широко и связаны туннелями. Глубины и числа ярусов ни музейная страница, ни портал министерства не дают.",
+          en: "Özkonak is 14 kilometres from Avanos, on the northern slope of Mount Idiş, where the volcanic tuff lies thick. Galleries spread wide and are linked by tunnels. Neither the museum page nor the ministry portal gives a depth or a floor count."
+        },
+        {
+          ru: "Связь между ярусами тут не такая, как в Каймаклы и Деринкую. Между этажами узкие длинные отверстия, и когда входы комнат закрыты, воздух идёт через них. Музей пишет «5 см», портал — «примерно 5 сантиметров в поперечнике».",
+          en: "The floors do not talk to each other the way they do in Kaymaklı and Derinkuyu. Narrow, long holes run between them, and when the room entrances are shut, the air goes through those holes. The museum says 5 cm; the portal says about 5 centimetres across."
+        },
+        {
+          ru: "На портале, со ссылкой на музейную брошюру, есть ещё вентиляционная шахта, колодец, винодельня и камни-засовы, как в других подземных городах. Точной даты нет. Страница губернаторства Невшехира прямо говорит, что её не знают, и лишь предполагает IV век до нашей эры.",
+          en: "The portal, citing a museum brochure, also lists a ventilation shaft, a water well, a winery, and rolling-stone doors, as in the other underground cities. There is no firm date. The Nevşehir governorate page says the date is not known for certain, and only supposes the 400s BC."
+        },
+        {
+          ru: "Там же написано, что не все помещения расчищены, а камни-засовы вытесали снаружи и внесли внутрь. Сколько людей могло здесь жить и на сколько метров уходит город, эти страницы не говорят.",
+          en: "The same governorate page says not every room has been cleaned, and that the rolling stones were shaped outside and carried in. How many people could live here, and how many metres down the city goes, these pages do not say."
+        }
+      ]
     },
     {
       id: "mazi",
@@ -5026,19 +5280,29 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/1143445897",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://www.kulturportali.gov.tr/turkiye/nevsehir/gezilecekyer/mazi-yeralti-sehri",
           label: "kulturportali.gov.tr"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/1143445897",
+          label: "openstreetmap.org"
         },
         {
           url: "https://tr.wikipedia.org/wiki/Ürgüp",
           label: "tr.wikipedia.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Портал министерства называет древнее имя Мазы — Матаза: 18 километров к югу от Ургюпа и 10 километров к востоку от Каймаклы, четыре входа. Главный — коридор из неровных камней, его перекрывает большой камень-засов, а рядом маленькая комната, чтобы этот камень мог сдвинуться. За конюшнями короткий ход ведёт в церковь, её тоже можно закрыть таким камнем; апсида вырезана в углу, и лицо её в рельефе.",
+          en: "The ministry portal gives Mazı an old name, Mataza: 18 kilometres south of Ürgüp and 10 kilometres east of Kaymaklı, with four entrances. The main one is a corridor of irregular stones, closed by a large rolling stone, with a small room beside it so the stone can move. Past the stables a short passage leads to a church, which can also be shut by such a stone; the apse is cut into a corner and its face is carved in relief."
+        },
+        {
+          ru: "Ярусов, как там написано, думают четыре, а пройти сейчас можно два. Из-за обвалов город закрыли в 2003 году и снова открыли в 2015-м. Глубины в метрах, числа людей и плана, который кто-то обмерял, на этой странице нет.",
+          en: "The page says the city is thought to have four floors, and only two can be visited now. Collapses closed it in 2003, and it was opened again in 2015. A depth in metres, a number of people, and a measured plan are not on this page."
+        }
+      ]
     },
     {
       id: "tatlarin",
@@ -5064,15 +5328,37 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/13114159767",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://tr.wikipedia.org/wiki/Kapadokya%27daki_yeraltı_şehirleri_listesi",
           label: "tr.wikipedia.org"
+        },
+        {
+          url: "https://muze.gov.tr/muze-detay?DistId=DKY&SectionId=DKY01",
+          label: "muze.gov.tr"
+        },
+        {
+          url: "https://muze.gov.tr/muze-detay?SectionId=KYY01&DistId=KYY",
+          label: "muze.gov.tr"
+        },
+        {
+          url: "https://muze.gov.tr/muze-detay?sectionId=OZK01&distId=OZK",
+          label: "muze.gov.tr"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/13114159767",
+          label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Татларин стоит в списке подземных городов Невшехира без глубины, числа ярусов, даты и описания комнат. Турецкая Википедия ставит его туда и относит эти города к открытым для туризма.",
+          en: "Tatlarin stands on the list of Nevşehir underground cities with no depth, no floor count, no date and no description of the rooms. Turkish Wikipedia places it there and classes these cities as open to tourism."
+        },
+        {
+          ru: "Страницы министерства про Деринкую, Каймаклы и Озконак о Татларине молчат. Как устроены ходы, на сколько метров они уходят и пускают ли туда сейчас, оттуда не узнать.",
+          en: "The ministry pages for Derinkuyu, Kaymaklı and Özkonak are silent about Tatlarin. How the passages are built, how many metres down they go, and whether you can walk in now cannot be learned from them."
+        }
+      ]
     },
     {
       id: "gaziemir",
@@ -5090,15 +5376,29 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/3090482561",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://aksaray.ktb.gov.tr/TR-63663/yeralti-sehirleri.html",
           label: "aksaray.ktb.gov.tr"
+        },
+        {
+          url: "https://tr.wikipedia.org/wiki/Kapadokya%27daki_yeraltı_şehirleri_listesi",
+          label: "tr.wikipedia.org"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/3090482561",
+          label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Это не Газиемир под Измиром. Управление культуры Аксарая описывает подземный город в деревне Газиемир, район Гюзельюрт, и говорит, что план у него другой. Вход — каменный коридор к площади, комнаты вокруг неё: две церкви, винодельня и много винных кувшинов, кладовые, очаги, хлева и жилые комнаты. В длинных коридорах ниши, чтобы лечь, как в караван-сарае.",
+          en: "This is not Gaziemir near İzmir. The Aksaray culture directorate describes an underground city in Gaziemir village, Güzelyurt district, and says the plan is different. You enter by a stone-built corridor to a court, with rooms around it: two churches, a winery and many wine jars, storerooms, hearths, animal shelters and living rooms. Along the long corridors are niches where a person could lie down, in the manner of a caravanserai."
+        },
+        {
+          ru: "Глубины, числа ярусов, вместимости и часов работы в этом абзаце нет, и прямо «открыт для гостей» управление не пишет. Список турецкой Википедии ставит Газиемир среди аксарайских подземных городов, открытых для туризма. Что из этого верно сегодня, страницы между собой не сверяют.",
+          en: "That paragraph gives no depth, no floor count, no capacity and no hours, and the directorate does not say in so many words that it is open. Turkish Wikipedia's list places Gaziemir among the Aksaray underground cities opened to tourism. The two pages do not settle which description holds today."
+        }
+      ]
     },
     {
       id: "saratli-kirkgöz",
@@ -5145,15 +5445,33 @@
       tours: [],
       sources: [
         {
-          url: "https://www.openstreetmap.org/node/201411412",
-          label: "openstreetmap.org"
-        },
-        {
           url: "https://aksaray.ktb.gov.tr/TR-63663/yeralti-sehirleri.html",
           label: "aksaray.ktb.gov.tr"
+        },
+        {
+          url: "https://www.openstreetmap.org/node/201411412",
+          label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Управление культуры Аксарая ставит Саратлы Кыркгёз в 50 километрах от Невшехира и в 22 от Аксарая. В 2001 году расчистили и открыли для туризма три яруса: туалет, баня, кладовая и всего 40 комнат. Свою вентиляцию страница отмечает как отличие от похожих городов Каппадокии. Семи ярусов, пишет она, только предполагают, это не законченный обмер.",
+          en: "The Aksaray culture directorate places Saratlı Kırkgöz 50 kilometres from Nevşehir and 22 from Aksaray. In 2001 three floors were cleaned and opened to tourism: a toilet, a bath, a larder, and 40 rooms in all. The page notes a ventilation system as something unlike the similar Cappadocian cities. Seven floors, it says, are only a guess, not a finished survey."
+        },
+        {
+          ru: "У входа конюшня с 14 кормушками, в следующей комнате ещё семь. На втором ярусе колодец глубиной 10 метров: это глубина колодца, не всего города. Рядом в полу тандыр, а туннели дальше оставили недорытыми. На третий ярус спускаются наклонным ходом в комнату, которую называют Куюлу дам, и там ещё один колодец.",
+          en: "At the entrance is a stable with 14 animal troughs, and the next room has seven more. On the second floor a well reaches 10 metres down: that is the well, not the depth of the city. A tandoor is cut in the floor beside it, and the tunnels beyond were left unfinished. The third floor is a sloping tunnel down to a room called Kuyulu dam, with another well."
+        },
+        {
+          ru: "Двери — жернова, их запирали изнутри и тёсали так, чтобы снаружи дверь не читалась. Воду брали из колодцев и цистерн внутри, хлеб пекли внутри, свет давали лампы на оливковом масле или на курдючном жире. Страница называет это жильём римского времени.",
+          en: "The doors are millstones, locked from inside and cut so that from outside you would not read them as doors. Water came from wells and cisterns inside, bread was baked inside, and light came from lamps burning olive oil or tail fat. The page calls it a Roman-period living place."
+        },
+        {
+          ru: "Чуть выше на той же странице высоты от 1 до 4 метров относятся к подземным комнатам Каппадокии вообще, не к измеренной глубине Кыркгёза. Общей глубины города в метрах там нет.",
+          en: "A little higher on the same page, heights from 1 to 4 metres are about Cappadocian underground rooms in general, not a measured depth of Kırkgöz. The page gives no overall depth for the city in metres."
+        }
+      ]
     },
     {
       id: "ozluce",
@@ -5171,11 +5489,25 @@
       tours: [],
       sources: [
         {
+          url: "https://tr.wikipedia.org/wiki/Kapadokya%27daki_yeraltı_şehirleri_listesi",
+          label: "tr.wikipedia.org"
+        },
+        {
           url: "https://www.openstreetmap.org/node/1140623190",
           label: "openstreetmap.org"
         }
       ],
-      report: "cappadocia"
+      report: "cappadocia",
+      story: [
+        {
+          ru: "Деревня Озлюдже стоит в том же невшехирском списке подземных городов, и рядом с названием нет ни глубины, ни ярусов, ни даты. Турецкая Википедия включает её туда как открытую для туризма.",
+          en: "The village of Özlüce stands on the same Nevşehir list of underground cities, and beside the name there is no depth, no floor count and no date. Turkish Wikipedia includes it there as open to tourism."
+        },
+        {
+          ru: "Как выглядят комнаты, сколько их и открыт ли вход, страницы министерства, которые описывают соседние города, не говорят. Отдельной статьи с обмерами среди проверенных страниц нет. Показывать пока нечего, кроме имени в списке.",
+          en: "What the rooms look like, how many there are, and whether the entrance is open, the ministry pages for the neighbouring cities do not say. No separate article with measurements turned up among the pages checked. For now there is nothing to show but the name on that list."
+        }
+      ]
     },
     {
       id: "naours",
@@ -5229,6 +5561,10 @@
       tours: [],
       sources: [
         {
+          url: "https://fr.wikipedia.org/wiki/Cité_souterraine_de_Naours",
+          label: "fr.wikipedia.org"
+        },
+        {
           url: "https://www.wikidata.org/wiki/Q2974832",
           label: "wikidata.org"
         },
@@ -5241,7 +5577,21 @@
           label: "sketchfab.com"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Под холмом в Науре — убежище из 28 галерей и около 130 комнат, в среднем на 33 метра ниже холма. Так описывает французская Википедия. Высота ходов от 1,60 до 2 метров. Круглый год там 9,5 °C.",
+          en: "Under the hill at Naours there is a refuge of 28 galleries and about 130 rooms, on average 33 metres below the hill. That is how French Wikipedia describes it. The galleries are from 1.60 to 2 metres high. All year the temperature stays at 9.5 °C."
+        },
+        {
+          ru: "Каменоломню, вероятно, начали к XII веку, а в XVI расширили как убежище для жителей и их скота. Вместимость статья оценивает почти в 2000 человек: вдоль галерей комнаты семей, конюшни с кормушками, вентиляционные и дымовые трубы. На стенах надписи с датами от 1340 до 1792 года, а в мелу сидят ископаемые раковины.",
+          en: "Quarrying probably began toward the 12th century, and in the 16th the place was enlarged as a refuge for the villagers and their animals. The article puts the shelter at nearly 2,000 people: family rooms along the galleries, stables with troughs, air shafts and smoke flues. Inscriptions on the walls run from 1340 to 1792, and fossil shells sit in the chalk."
+        },
+        {
+          ru: "Вход снова нашёл кюре Эрнест Даникур 15 декабря 1887 года, вместе с прихожанами: старые входы к началу века уже затянуло. С тех пор, пишет статья, город открыт для гостей, кроме Второй мировой. С 2014 года им занимается сообщество коммун Территуар Нор Пикарди.",
+          en: "The priest Ernest Danicourt found the entrance again on 15 December 1887, with his parishioners: the old mouths had already closed over by the start of that century. The article says it has stayed open to visitors since, except during the Second World War. Since 2014 it has been run by the Communauté de communes du Territoire Nord Picardie."
+        }
+      ]
     },
     {
       id: "wieliczka",
@@ -5314,10 +5664,6 @@
       ],
       sources: [
         {
-          url: "https://www.wikidata.org/wiki/Q454019",
-          label: "wikidata.org"
-        },
-        {
           url: "https://www.kopalnia.pl/turysta-indywidualny/o-kopalni/niekonczace-sie-korytarze",
           label: "kopalnia.pl"
         },
@@ -5330,11 +5676,33 @@
           label: "kopalnia.pl"
         },
         {
+          url: "https://www.wikidata.org/wiki/Q454019",
+          label: "wikidata.org"
+        },
+        {
           url: "https://web.archive.org/web/20231219082409/https://whc.unesco.org/en/list/32/",
           label: "web.archive.org"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Сайт шахты говорит просто: девять уровней, нижний на 327 метрах, ходы около 245 километров. Гостю доступны лишь 2 процента подземных переходов, и только с квалифицированным проводником.",
+          en: "The mine's own site says it plainly: nine levels, the lowest at 327 metres, corridors of about 245 kilometres. Visitors can enter only 2 percent of the underground passages, and only with a qualified guide."
+        },
+        {
+          ru: "Английская Википедия ту же глубину, 327 метров, подтверждает, а длину даёт другую: больше 287 километров. Какая цифра верна, страницы не решают.",
+          en: "English Wikipedia agrees on the same depth, 327 metres, and gives a different length: over 287 kilometres. The pages do not decide which figure is right."
+        },
+        {
+          ru: "На странице истории шахты добычу каменной соли закончили в 1964 году и перешли на выварку из рассола. В 1978 году Величку внесли в список ЮНЕСКО. Решение прекратить промышленную добычу соли приняли в 1996-м. В реестре памятников она с 1976 года, а в 1994-м президент Польши признал её памятником истории.",
+          en: "On the mine's history page, rock-salt mining ended in 1964 and was replaced by boiling salt out of brine. In 1978 Wieliczka was inscribed by UNESCO. The decision to end industrial salt production came in 1996. It has been on the monuments register since 1976, and in 1994 the president of Poland named it a historic monument."
+        },
+        {
+          ru: "Соль там не белая, как на столе. Английская Википедия пишет, что каменная соль серая, разных оттенков, и скорее похожа на неполированный гранит. Туда же статья относит около 1,2 миллиона гостей в год; на страницах самой шахты этой цифры не было.",
+          en: "The salt is not the white stuff on a table. English Wikipedia says the rock salt is grey, in varying shades, more like unpolished granite. The same article puts the visitors at about 1.2 million a year; that figure was not on the mine's own pages."
+        }
+      ]
     },
     {
       id: "orvieto-underground",
@@ -5385,15 +5753,33 @@
           label: "it.wikipedia.org"
         },
         {
-          url: "https://orvietounderground.it/en/home/",
+          url: "https://orvietounderground.it/en/the-discovery/",
           label: "orvietounderground.it"
         },
         {
-          url: "https://orvietounderground.it/en/the-discovery/",
+          url: "https://orvietounderground.it/en/home/",
           label: "orvietounderground.it"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Орвьетские подземелья — рукотворные полости, и большая часть их — это погреба. Так пишет итальянская Википедия: орвьетские спелеологи с конца 1970-х заново пересчитали больше 1200 рукотворных полостей. Страница открытия у оператора экскурсий говорит о 1980-х и о 1200 гротах, без «больше». Выбирать, какая страница права, не из чего.",
+          en: `The underground spaces of Orvieto are artificial cavities, and most of them are cellars. That is what Italian Wikipedia writes: Orvieto speleologists, from the late 1970s, counted again more than 1,200 artificial cavities. The tour operator's discovery page speaks of the 1980s and of 1,200 grottoes, without the "more than". There is no way to choose which page is right.`
+        },
+        {
+          ru: "Оператор говорит, что рыли около 2500 лет подряд. Экскурсия каждый день в 11:00, 12:15, 16:00 и 17:15, выход с площади Дуомо, дом 23. Общей глубины всей сети ни эта страница, ни википедийная не дают.",
+          en: "The operator says the digging went on for about 2,500 years. Tours leave every day at 11:00, 12:15, 4:00 and 5:15, from Piazza Duomo 23. Neither that page nor the Wikipedia article gives a depth for the whole network."
+        },
+        {
+          ru: "На странице открытия описан один ход глубже 35 метров: через пятнадцать метров его забила глина, и дальше не прошли. Колодцы прямоугольные и не шире 80 на 120 сантиметров, уходят вниз к ключам, а в длинных стенах через равные промежутки зарубки, чтобы ставить ногу.",
+          en: "The discovery page describes one tunnel at a depth of more than 35 metres: after about fifteen metres clay blocked it, and they could not go on. The wells are rectangular and no larger than 80 by 120 centimetres, dropping toward springs, with footholds cut at intervals in the long walls."
+        },
+        {
+          ru: "Википедия добавляет бытовую деталь: в 1950-е почти все эти погреба бросили, когда появились холодильники и другой способ делать вино. Над городом улицы сменились, а вырезанное под ними в основном осталось.",
+          en: "Wikipedia adds a domestic detail: in the 1950s almost all of these cellars were abandoned, once refrigerators arrived and wine was made another way. Above ground the streets changed; what was cut underneath mostly stayed."
+        }
+      ]
     },
     {
       id: "matera-sassi",
@@ -5455,15 +5841,33 @@
       tours: [],
       sources: [
         {
-          url: "https://www.wikidata.org/wiki/Q2350404",
-          label: "wikidata.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Sassi_di_Matera",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://www.wikidata.org/wiki/Q2350404",
+          label: "wikidata.org"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Сасси — это два квартала Матеры, Сассо Кавеозо и Сассо Баризано. Дома выдолблены в местном калкарените, его тут зовут «туфо», хотя это ни вулканический туф, ни известковый туф. В некоторых местах улица идёт по крышам домов, которые под ней.",
+          en: "The Sassi are two districts of Matera, Sasso Caveoso and Sasso Barisano. The houses are dug into the local calcarenite, called tufo here, though it is neither volcanic tuff nor tufa limestone. In some parts the street runs on top of the houses underneath."
+        },
+        {
+          ru: "Та же статья английской Википедии говорит сразу две вещи: что в пещерах живут с палеолита и что следы людей есть уже около 7000 года до нашей эры. Это не один и тот же отрезок времени, и статья победителя не выбирает.",
+          en: "The same English Wikipedia article says two things at once: that the caves have been inhabited since the Paleolithic, and that there is evidence of people here as early as 7000 BC. Those are not the same stretch of time, and the article does not pick a winner."
+        },
+        {
+          ru: "Вместе с парком скальных церквей Сасси внесли в список ЮНЕСКО в 1993 году. Сколько здесь пещер и на какую глубину они уходят, статья не говорит.",
+          en: "Together with the park of the rupestrian churches, the Sassi were inscribed by UNESCO in 1993. How many caves there are, and how deep they go, the article does not say."
+        },
+        {
+          ru: "В 1950-е итальянское государство принудительно переселило отсюда большую часть жителей в новый город. Статья называет причину прямо: крайняя бедность и малярия.",
+          en: "In the 1950s the Italian state forcefully moved most of the people out of here into the new city. The article names the reason plainly: extreme poverty and malaria."
+        }
+      ]
     },
     {
       id: "setenil",
@@ -5518,19 +5922,33 @@
       tours: [],
       sources: [
         {
-          url: "https://www.wikidata.org/wiki/Q918623",
-          label: "wikidata.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://www.wikidata.org/wiki/Q918623",
+          label: "wikidata.org"
         },
         {
           url: "https://sketchfab.com/3d-models/setenil-e3da98c219f845cc84526ae6d47046e2",
           label: "sketchfab.com"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "В Сетениле дома встроены в скалу над рекой Гуадальпоркун. Та же статья английской Википедии говорит, что город стоит и вдоль реки Трехо. По переписи 2023 года здесь 2638 жителей. Глубины в метрах нет: это не шахта, а улицы под каменным козырьком, и насколько козырёк выдаётся, статья не мерит.",
+          en: "In Setenil the houses are built into the rock above the Río Guadalporcún. The same English Wikipedia article also says the town lies alongside the Río Trejo. The 2023 census gives 2,638 inhabitants. There is no depth in metres: this is not a mine, it is streets under a rock overhang, and the article does not measure how far the overhang projects."
+        },
+        {
+          ru: "Полное имя, Сетениль-де-лас-Бодегас, статья относит к XV веку: новые христианские поселенцы, сохранив арабские оливковые и миндальные рощи, посадили виноградники. Оливы и миндаль на месте, а винодельни в 1860-е уничтожила филлоксера.",
+          en: "The full name, Setenil de las Bodegas, the article dates to the 15th century: new Christian settlers, keeping the Arab olive and almond groves, planted vineyards. The olives and almonds are still there, and the wineries were wiped out by phylloxera in the 1860s."
+        },
+        {
+          ru: "Когда именно начали вырезать жильё в скале и сколько таких домов, статья не говорит. Замок она относит как минимум к альмохадскому XII веку и сама помечает эту фразу как нуждающуюся в источнике, так что веком я бы пол не мерил.",
+          en: "When people first cut houses into the rock, and how many such houses there are, the article does not say. It dates the castle to at least the Almohad 12th century and itself marks that sentence as needing a citation, so I would not measure the town by that century."
+        }
+      ]
     },
     {
       id: "mary-kings-close",
@@ -5577,19 +5995,33 @@
       tours: [],
       sources: [
         {
-          url: "https://nominatim.openstreetmap.org/search?q=2%20Warriston%27s%20Close%2C%20Edinburgh&format=json",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Mary_King%27s_Close",
           label: "en.wikipedia.org"
         },
         {
           url: "https://www.realmarykingsclose.com/",
           label: "realmarykingsclose.com"
+        },
+        {
+          url: "https://nominatim.openstreetmap.org/search?q=2%20Warriston%27s%20Close%2C%20Edinburgh&format=json",
+          label: "nominatim.openstreetmap.org"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Под Сити-Чемберс на Королевской миле лежит улица XVII века — клоуз Мэри Кинг. Имя ей дала купчиха Мэри Кинг, которая здесь жила. Когда в 1753 году строили Королевскую биржу, улицу частично снесли и засыпали. Сейчас это экскурсия.",
+          en: "Under the City Chambers on the Royal Mile lies a 17th-century street, Mary King's Close. It took its name from Mary King, a merchant who lived here. When the Royal Exchange was built in 1753, the street was partly demolished and filled in. It is a tour now."
+        },
+        {
+          ru: "Потом клоуз на много лет закрыли для людей. Экскурсию ведёт Continuum Attractions. Адрес на сайте оператора: 2 Warriston's Close, Королевская миля, Эдинбург.",
+          en: "The close was then shut to people for many years. The tour is run by Continuum Attractions. The operator's site gives the address as 2 Warriston's Close, the Royal Mile, Edinburgh."
+        },
+        {
+          ru: "Про последнего жителя статья пишет: в 1897 году Эндрю Чесни получил принудительный выкуп в 400 фунтов и ушёл в 1902-м. Тут же стоит пометка, что фразе всё ещё нужен источник.",
+          en: "Of the last resident, the article says that in 1897 Andrew Chesney was given a compulsory purchase of £400 and left in 1902. The same sentence is marked as still needing a citation."
+        }
+      ]
     },
     {
       id: "edinburgh-vaults",
@@ -5640,7 +6072,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Саут-Бридж в Эдинбурге — виадук из девятнадцати арок, его достроили в 1788 году. С улицы видна только арка Коугейта. В остальных восемнадцати — около 120 комнат: таверны, мастерские, склады. Из-за воды уходить начали уже в 1795 году.",
+          en: "South Bridge in Edinburgh is a viaduct of nineteen arches, finished in 1788. From the street only the Cowgate arch is visible. The other eighteen were packed with about 120 rooms: taverns, workshops, stores. Because of the water, people started to leave as early as 1795."
+        },
+        {
+          ru: "Закон о мосте приняли в 1785 году. Остальные восемнадцать арок закрыли домами, чтобы мост стал торговой улицей. Комнаты — от двух до сорока квадратных метров. Лет тридцать они работали как задумано: мастерские сапожников и других ремесленников, склады для лавок на мосту.",
+          en: "The act for the bridge was passed in 1785. The other eighteen arches were enclosed behind buildings so the bridge could be a commercial street. The rooms run from two square metres to forty. For about thirty years they worked as intended: workshops for cobblers and other trades, and storage for the shops on the bridge."
+        },
+        {
+          ru: "Потом своды стало заливать: их не изолировали от воды.",
+          en: "Then the vaults began to flood: they were not sealed against water."
+        },
+        {
+          ru: "Что здесь жили, а не только хранили товар, стало ясно в 1985 году, на раскопках. В мусорных ямах нашли игрушки, пузырьки от лекарств, тарелки и прочие следы жилья.",
+          en: "That people had lived here, not only stored goods, became clear in 1985, during an excavation. The middens held toys, medicine bottles, plates and other signs of a household."
+        }
+      ]
     },
     {
       id: "bochnia",
@@ -5707,7 +6157,25 @@
           label: "sketchfab.com"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Сайт шахты называет Бохню старейшей шахтой каменной соли в Польше: в 1248 году нашли подземную залежь, и с этого ведут предприятие. В списке ЮНЕСКО она с 2013 года. Туристов принимают с 1990-х, сейчас почти 190 тысяч человек в год.",
+          en: "The mine's site calls Bochnia the oldest rock-salt mine in Poland: in 1248 an underground deposit was found, and the enterprise is dated from that. It has been on the UNESCO list since 2013. Tourists have been coming since the 1990s, nearly 190,000 people a year now."
+        },
+        {
+          ru: "Английская Википедия даёт размеры, которых на странице истории самой шахты нет: стволы около 4,5 километра длиной, глубина примерно 330–468 метров, 16 уровней, добычу соли прекратили в 1990-м. Это не спор двух цифр. Официальная история говорит про 1248 и 2013 год и эти метры не повторяет.",
+          en: "English Wikipedia gives measurements that are not on the mine's own history page: shafts about 4.5 kilometres long, roughly 330 to 468 metres deep, on 16 levels, with salt production stopped in 1990. This is not two figures in a fight. The official history gives 1248 and 2013 and does not repeat those metres."
+        },
+        {
+          ru: "Та же википедийная статья описывает камеру Важин, самую большую: глубина 248 метров, длина 255, ширина до 14,4, высота до 7,2, и без опорных столбов. Спальных мест там до 300. Соль из этой камеры брали с 1697 года до 1950-х.",
+          en: "The same Wikipedia article describes the Ważyn chamber, the largest: 248 metres down, 255 metres long, up to 14.4 metres wide and 7.2 metres high, with no supporting pillars. There are beds for up to 300 people. Salt from this chamber was taken from 1697 until the 1950s."
+        },
+        {
+          ru: "Августовский ход, пишет она, вырос почти до 3 километров, и выработки складываются в подземный город, который можно смотреть. В список ЮНЕСКО Бохню добавили в 2013 году как расширение величской записи 1978 года. Глубины камеры на официальной странице истории нет.",
+          en: "The August Passage, the article says, grew to nearly 3 kilometres, and the workings add up to an underground town you can look at. Bochnia was added to the UNESCO list in 2013 as an extension of the Wieliczka inscription of 1978. The chamber's depth is absent from the official history page."
+        }
+      ]
     },
     {
       id: "guadix",
@@ -5754,12 +6222,12 @@
       tours: [],
       sources: [
         {
-          url: "https://www.wikidata.org/wiki/Q244324",
-          label: "wikidata.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Guadix",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://www.wikidata.org/wiki/Q244324",
+          label: "wikidata.org"
         },
         {
           url: "https://es.wikipedia.org/wiki/Casa-cueva",
@@ -5770,7 +6238,21 @@
           label: "commons.wikimedia.org"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Гуадикс стоит на высоте 913 метров. В квартале Сантьяго английская Википедия описывает дома-троглодиты, вырезанные в породе, которую статья называет туфом. Рядом в списке достопримечательностей те же пещерные жилища названы ещё раз, уже без цифр.",
+          en: "Guadix stands at 913 metres. In the Barrio de Santiago, English Wikipedia describes troglodyte houses carved in rock the article calls tuff. The same cave dwellings are named again in the list of sights, this time with no figures."
+        },
+        {
+          ru: "Сколько таких домов, на какую глубину их вырезали, кто начал и в каком веке, в статье нет. Отдельной точки самого пещерного квартала, отдельно от города, в проверенных страницах тоже нет: 913 метров — высота Гуадикса, не глубина комнаты.",
+          en: "How many such houses, how deep they were cut, who began them and in which century, the article does not say. A pin for the cave quarter itself, apart from the town, is not on the pages I checked either: 913 metres is the height of Guadix, not the depth of a room."
+        },
+        {
+          ru: "В перечне достопримечательностей пещерные дома стоят рядом с собором и мавританской алькасабой. Год статья ставит церкви Сантьяго, 1540-й, а у самих пещер года нет.",
+          en: "In the list of sights the cave houses stand beside the cathedral and the Moorish alcazaba. The article dates the church of Santiago to 1540, and gives the caves themselves no year."
+        }
+      ]
     },
     {
       id: "budapest-labyrinth",
@@ -5817,7 +6299,7 @@
       tours: [],
       sources: [
         {
-          url: "https://hu.wikipedia.org/wiki/Budav%C3%A1ri_labirintus",
+          url: "https://hu.wikipedia.org/wiki/Budavári_labirintus",
           label: "hu.wikipedia.org"
         },
         {
@@ -5825,11 +6307,33 @@
           label: "labirintus.eu"
         },
         {
+          url: "https://hu.wikipedia.org/wiki/Budav%C3%A1ri_labirintus",
+          label: "hu.wikipedia.org"
+        },
+        {
           url: "https://labirintus.eu/en/",
           label: "labirintus.eu"
         }
       ],
-      report: "europe"
+      report: "europe",
+      story: [
+        {
+          ru: "Под Будайской крепостью горячие источники вымыли полости между известковым туфом холма и мергелем под ним. Так пишет венгерская Википедия. Потом к ним пристроили погреба и колодцы домов и расширили ещё. Система уходит примерно на 12 метров и вместе с рукотворными частями тянется на 3,3 километра.",
+          en: "Under Buda Castle, hot springs washed out cavities between the limestone tufa of the hill and the marl beneath. That is what Hungarian Wikipedia writes. House cellars and wells were later joined on, and the whole thing was enlarged again. The system runs about 12 metres deep and, with the artificial parts, is 3.3 kilometres long."
+        },
+        {
+          ru: "Та же статья говорит, что по находкам ниши пещер использовали люди ещё 350 тысяч лет назад. Открытые для публики ходы смотрят группой, с проводником по-венгерски или по-английски, билет заранее на сайте национального парка Дуна–Ипой. Среди входов названа улица Ури, дом 9.",
+          en: "The same article says that, on the evidence of finds, people were using the cave niches 350,000 years ago. The passages open to the public are walked in a group, with a Hungarian- or English-speaking guide, after a ticket bought in advance on the Duna–Ipoly National Park site. Úri utca 9 is one of the listed entrances."
+        },
+        {
+          ru: "Коммерческий сайт по тому же адресу, Ури утца 9, описывает другой визит: открыт каждый день с 11 до 18, внутри 16–18 °C и влажность около 90 процентов. С Средних веков, пишет он, лабиринт был убежищем, погребом, больницей или тюрьмой. Без проводника там, по этой странице, пройти можно: стрелки показывают дорогу.",
+          en: "A commercial site at the same address, Úri utca 9, describes a different visit: open every day from 11:00 to 18:00, 16–18 °C inside and humidity about 90 percent. From the Middle Ages, it says, the labyrinth was a shelter, a cellar, a hospital or a prison. On that page you can walk without a guide: arrows show the way."
+        },
+        {
+          ru: "Это не две цифры об одном и том же билете. Википедия говорит о ходах национального парка с проводником, оператор — о своём лабиринте со стрелками. Общей схемы, которая сшила бы оба маршрута, на этих страницах нет.",
+          en: "These are not two figures for the same ticket. Wikipedia is talking about the national-park passages with a guide; the operator is talking about its own labyrinth with arrows. No plan that stitches both routes together is on these pages."
+        }
+      ]
     },
     {
       id: "coober-pedy",
@@ -5880,19 +6384,37 @@
           label: "en.wikipedia.org"
         },
         {
-          url: "https://www.wikidata.org/wiki/Q779188",
-          label: "wikidata.org"
-        },
-        {
           url: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL40295",
           label: "abs.gov.au"
+        },
+        {
+          url: "https://www.wikidata.org/wiki/Q779188",
+          label: "wikidata.org"
         },
         {
           url: "https://www.cooberpedy.sa.gov.au/",
           label: "cooberpedy.sa.gov.au"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "В Кубер-Педи дом часто начинается с дыры в холме. Такие жилища зовут дагоутами: комнаты режут в породе, потому что днём наверху невыносимо. Город стоит на Стюарт-хайвее, в 846 километрах к северу от Аделаиды, и летом на поверхности часто выше 40 °C. В сводке климата средний максимум января 36,7 °C, июня 18,4 °C.",
+          en: "In Coober Pedy a house often starts as a hole in the hill. They call these dugouts: rooms cut into the rock because the days up top are brutal. The town sits on the Stuart Highway, 846 kilometres north of Adelaide, and in summer the surface often goes past 40 °C. The climate figures give an average January maximum of 36.7 °C and a June maximum of 18.4 °C."
+        },
+        {
+          ru: "Внутри дагоут держит ровную температуру, но страница так и не говорит, какую именно. Обычное жильё на три спальни, с гостиной, кухней и ванной, вырезают в склоне, и по цене это сравнимо с домом на поверхности. Пласты песчаника и алевролита под городом уходят на 30 метров: это толща породы, а не глубина комнат.",
+          en: "Inside, a dugout stays at a constant temperature, and the page never says what that temperature is. A standard three-bedroom home, with a lounge, a kitchen and a bathroom, can be cut out of the hillside for a price similar to building on the surface. Sandstone and siltstone beds under the town run 30 metres deep: that is the rock, not how far down the rooms go."
+        },
+        {
+          ru: "Перепись 2021 года в двух границах не сходится: ABS для местности SAL40295 даёт 1566 человек, а Викиданные для городского центра того же года записывают 1437. Оба числа про посёлок наверху, а не про тех, кто спит в дагоутах. Сколько именно живёт под землёй, страницы не говорят.",
+          en: "The 2021 census does not agree across the two boundaries: the ABS count for locality SAL40295 is 1,566 people, and Wikidata records 1,437 for that year’s urban centre. Both numbers are the town above ground, not the people who sleep in dugouts. The pages do not say how many live underground."
+        },
+        {
+          ru: "Гостям показывают подземные церкви: сербскую православную и католическую. Есть и мотели под землёй, от нескольких комнат до такого, где весь мотель и есть дагоут. Над городом каменистая пустыня почти без деревьев: мало дождя, а вода дорогая.",
+          en: "What they show visitors includes the underground churches, the Serbian Orthodox one and the Catholic one. There are underground motels too, from a few rooms to a place where the whole motel is the dugout. Above the town it is a stony desert with almost no trees: little rain, and water that costs a lot."
+        }
+      ]
     },
     {
       id: "matmata",
@@ -5943,15 +6465,33 @@
           label: "en.wikipedia.org"
         },
         {
-          url: "https://nominatim.openstreetmap.org/search?q=Matmata%2C+Tunisia&format=jsonv2",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
           url: "https://www.wikidata.org/wiki/Q338512",
           label: "wikidata.org"
+        },
+        {
+          url: "https://nominatim.openstreetmap.org/search?q=Matmata%2C+Tunisia&format=jsonv2",
+          label: "nominatim.openstreetmap.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "В Матмате дом начинают с большой ямы. По краям режут комнаты, а если семье нужно больше места, несколько ям соединяют траншеями. Часть берберских жителей до сих пор живёт в этих подземных домах.",
+          en: "In Matmata a house starts as a large pit. Rooms are cut around the edge, and if a family needs more space, several pits are linked by trenches. Some of the Berber residents still live in these underground houses."
+        },
+        {
+          ru: "С числом жителей страницы не сходятся: английская Википедия на 2004 год даёт 2116 человек, а Викиданные на тот же год записывают 1800. Оба числа про сам городок в одном и том же году.",
+          en: "The population does not agree: English Wikipedia gives 2,116 people for 2004, and Wikidata records 1,800 for that same year. Both numbers are for the town itself, in that one year."
+        },
+        {
+          ru: "В 1969 году дождь шёл 22 дня, ямы залило, и многие дома обрушились. На поверхности тогда построили новый посёлок, но большинство людей осталось в отстроенных подземных домах. Глубину ямы в метрах страница не называет.",
+          en: "In 1969 the rain lasted 22 days, the pits flooded, and many houses collapsed. A new settlement was built on the surface, and most people stayed in the rebuilt underground homes. The page never gives the pit a depth in metres."
+        },
+        {
+          ru: "Сейчас Матмата держится на гостях: большая часть людей живёт туризмом и показами прямо в своих домах. Ты стоишь у чужого двора, а двор этот на дне ямы.",
+          en: "Today Matmata runs on visitors: most people live from tourism and from shows put on inside the homes themselves. You stand at the edge of someone's courtyard, and that courtyard is the bottom of a pit."
+        }
+      ]
     },
     {
       id: "guyaju",
@@ -6006,7 +6546,25 @@
           label: "wikidata.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "В Яньцине, в скале, сидит целый посёлок комнат, и страница честно говорит: ясной истории нет. Время работ оценивают между тысячей и двумя тысячами лет назад, точную дату так и не установили. Гостей пускают с августа 1991 года, а в мае 2013 года место внесли в список особо охраняемых.",
+          en: "In Yanqing a whole settlement of rooms sits in the cliff, and the page is frank: there is no clear history. The digging has been placed somewhere between 1,000 and 2,000 years ago, and the exact date is still not fixed. Visitors have been allowed in since August 1991, and in May 2013 the place was listed as a major protected site."
+        },
+        {
+          ru: "На 2016 год это называли самым большим скальным жилищем, найденным в Китае. Передняя и задняя лощины идут с востока на запад и покрывают 1,5 квадратных километра, выдолбленная площадь пещер 3931 квадратный метр. От входа вниз ведут каменные лестницы длиннее 10 метров.",
+          en: "As of 2016 this was called the largest cliff-dwelling site found in China. The front and back gullies run east to west and cover 1.5 square kilometres, and the chiselled cave area is 3,931 square metres. Stone stairs from the entrance run more than 10 metres down to the ground."
+        },
+        {
+          ru: "Каменных комнат от 117 до более чем 170, а если делить дальше, помещений больше 350. Большинство высотой 1,8 метра и площадью 4 квадратных метра. Самая большая: 2 метра в высоту, 3 в ширину и 5,2 в длину.",
+          en: "There are from 117 to more than 170 stone rooms, and divided further the place has more than 350 rooms. Most are 1.8 metres high and 4 square metres. The largest is 2 metres high, 3 metres wide and 5.2 metres long."
+        },
+        {
+          ru: "Внутри выдолблены каны, дымоходы, оконца и подставки под лампы. В крыше прорезан жёлоб, чтобы ловить дождевую воду. Это жилые комнаты в скале, а не крепость с табличкой.",
+          en: "Inside they chiselled kang bed-stoves, flues, window holes and stands for lamps. A slot in the roof is cut to catch rain. These are living rooms in the rock, with the fittings of a house still visible."
+        }
+      ]
     },
     {
       id: "yaodong",
@@ -6053,19 +6611,37 @@
       tours: [],
       sources: [
         {
-          url: "https://nominatim.openstreetmap.org/search?q=Yan%27an%2C+Shaanxi&format=jsonv2",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Yaodong",
           label: "en.wikipedia.org"
+        },
+        {
+          url: "https://nominatim.openstreetmap.org/search?q=Yan%27an%2C+Shaanxi&format=jsonv2",
+          label: "nominatim.openstreetmap.org"
         },
         {
           url: "https://commons.wikimedia.org/wiki/Category:Yaodong",
           label: "commons.wikimedia.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "Яодун это не адрес, а способ жить на Лёссовом плато. Комнату режут в склоне или копают вокруг квадратного двора: на ровном месте сначала яма, потом пещеры в четырёх стенах. Земля вокруг сама держит тепло зимой и прохладу летом.",
+          en: "A yaodong is a way of living on the Loess Plateau, not a single street address. The room is carved into a hillside, or dug around a square courtyard: on flat ground you dig the pit first, then cut caves into all four walls. The earth around the room keeps it warm in winter and cool in summer."
+        },
+        {
+          ru: "В начале 2000-х в северном Китае в яодунах ещё жили от 30 до 40 миллионов человек, и статья говорит, что число быстро падало. Это весь север, не перепись одной провинции. Такие дома обычны в Ганьсу, Шэньси, Шаньси, Хэнани и Нинся.",
+          en: "In the early 2000s, between 30 and 40 million people in northern China still lived in yaodongs, and the article says that number was falling fast. That is the whole north, not a census of one province. Homes like this are common in Gansu, Shaanxi, Shanxi, Henan and Ningxia."
+        },
+        {
+          ru: "Яньань в статье назван типичным примером обрывистого яодуна: комнаты режут в лёссовом обрыве. Это пример типа, а не единственная пещера на карте. Одной глубины в метрах для всех яодунов страница не даёт.",
+          en: "The article names Yan'an as a typical cliffside yaodong, rooms cut into the loess cliff. That is an example of the type, not the only cave on the map. It does not give one depth in metres for every yaodong."
+        },
+        {
+          ru: "Где лёсса мало, арку выкладывают снаружи и закрывают сверху не меньше чем двумя метрами земли, чтобы держалось тепло. Получается дом, собранный по образу пещеры. Внутри стены часто белят известью.",
+          en: "Where the loess is thin, the arch is built outside and covered with at least two metres of earth so the warmth holds. What you get is a house built in the shape of a cave. Inside, the walls are often plastered white with lime."
+        }
+      ]
     },
     {
       id: "kandovan",
@@ -6120,7 +6696,21 @@
           label: "wikidata.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "Кандован до сих пор жилой. Дома, по-местному караан, вырезаны в вулканических конусах горы Саханд, в игнимбрите. Некоторые карааны поднимаются на 30–40 метров, а толща этой породы вокруг деревни больше 100 метров: это слой камня, не высота каждой комнаты.",
+          en: "Kandovan is still lived in. The houses, locally called karaan, are cut into the volcanic cones of Mount Sahand, in ignimbrite. Some karaan rise 30 to 40 metres, and around the village this rock is more than 100 metres thick: that is the stone formation, not the height of each room."
+        },
+        {
+          ru: "Улицы здесь это канавки, которые вода промыла между конусами. Над некоторыми перекинуты мостики от одного караана к другому. Входы и жилые комнаты в основном смотрят на юг.",
+          en: "The streets are grooves that water cut between the cones. Over some of them, bridges join one karaan to another. Entrances and living rooms mostly face south."
+        },
+        {
+          ru: "По переписи 2016 года в деревне 450 человек в 151 хозяйстве. В 2006 году было 601 человек в 168 хозяйствах, в 2011-м 586 человек в 183. Деревня стала меньше, и это по-прежнему дома, в которых живут.",
+          en: "The 2016 census counted 450 people in 151 households. In 2006 it was 601 people in 168 households, and in 2011 it was 586 people in 183. The village is smaller, and these are still houses with people in them."
+        }
+      ]
     },
     {
       id: "meymand",
@@ -6167,19 +6757,37 @@
       tours: [],
       sources: [
         {
+          url: "https://whc.unesco.org/en/list/1423/",
+          label: "whc.unesco.org"
+        },
+        {
           url: "https://en.wikipedia.org/wiki/Meymand,_Kerman",
           label: "en.wikipedia.org"
         },
         {
           url: "https://www.wikidata.org/wiki/Q1013465",
           label: "wikidata.org"
-        },
-        {
-          url: "https://whc.unesco.org/en/list/1423/",
-          label: "whc.unesco.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "В Мейманде зиму проводят ниже по долине, в домах, вырезанных в мягкой породе, ярусами до пяти домов в высоту. Весной и осенью люди уходят с животными во временные стоянки. У каждого зимнего дома, киче, от одной до семи комнат.",
+          en: "In Maymand winter is spent lower in the valley, in houses carved out of soft rock, stacked as many as five houses high. In spring and autumn people move with their animals to temporary settlements. Each winter house, a kiche, has between one and seven rooms."
+        },
+        {
+          ru: "ЮНЕСКО насчитала около 400 таких домов, 123 из них целы. Зимой живут примерно в 90 из 400. Там же говорится об общине примерно в 70 семей, и зимних семей стало куда меньше, чем поколение назад.",
+          en: "UNESCO has identified about 400 of these houses, and 123 are intact. About 90 of the 400 are lived in during the winter. The same text speaks of a community of some 70 families, and far fewer people overwinter there than a generation ago."
+        },
+        {
+          ru: "Перепись считает людей в деревне, а не зимние дома, так что это другой счёт. В 2016 году в деревне было 105 человек в 44 хозяйствах. В 2006-м было 674 человека, в 2011-м 214.",
+          en: "The census counts people in the village, not the winter houses, so it is a different tally. In 2016 the village had 105 people in 44 households. In 2006 it was 674 people, and in 2011 it was 214."
+        },
+        {
+          ru: "4 июля 2015 года место внесли в список Всемирного наследия. Зимой в вырезанных домах ещё живут. Просто таких семей меньше, чем было.",
+          en: "On 4 July 2015 the place was added to the World Heritage list. People do still spend the winter in the carved houses. Fewer families do it than used to."
+        }
+      ]
     },
     {
       id: "nushabad",
@@ -6226,15 +6834,33 @@
       tours: [],
       sources: [
         {
+          url: "https://en.wikipedia.org/wiki/Nushabad",
+          label: "en.wikipedia.org"
+        },
+        {
           url: "https://www.wikidata.org/wiki/Q5944377",
           label: "wikidata.org"
         },
         {
-          url: "https://en.wikipedia.org/wiki/Nushabad",
-          label: "en.wikipedia.org"
+          url: "https://www.sid.ir/paper/353490/en",
+          label: "sid.ir"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "Под Нушабадом город Оуйи: три уровня ходов, и на следующий поднимаются снизу вверх. Он в 3 километрах к северу от Арана и Бидголя. Страница называет и дневную жару пустыни, и набеги, и главной причиной вырезания считает именно нападения: под всем городом шли ходы, чтобы укрыться и пройти незаметно.",
+          en: "Under Nushabad is the city of Ouyi: three levels of passages, and you reach the next by coming up from below. It lies 3 kilometres north of Aran o Bidgol. The page names both the desert heat and the raids, and it gives the raids as the main reason the place was carved: passages under the whole town let people hide and move unseen."
+        },
+        {
+          ru: "С глубиной страницы расходятся: английская Википедия пишет от 4 до 18 метров, а Викиданные записывают 21 метр. Статья, на которую ссылаются Викиданные, открылась только экраном переадресации, так что 21 метр я читал на их странице, а не в самой статье.",
+          en: "The pages disagree on depth: English Wikipedia says 4 to 18 metres, and Wikidata records 21 metres. The paper Wikidata cites opened only as a transfer screen, so the 21 metres was read on Wikidata, not in that paper."
+        },
+        {
+          ru: "Внутрь вели разные входы, часть прямо из домов. В ходах можно было оставаться несколько дней, не поднимаясь на жару. Часов работы страница не даёт.",
+          en: "Several openings led in, some of them from inside houses. People could stay in the passages for several days without coming up into the heat. The page does not give opening hours."
+        }
+      ]
     },
     {
       id: "vardzia",
@@ -6293,7 +6919,25 @@
           label: "en.wikipedia.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "Вардзиа вырезана в обрыве горы Эрушети, на левом берегу Куры, в тридцати километрах от Аспиндзы. Пещеры тянутся вдоль скалы примерно на пятьсот метров и поднимаются до девятнадцати ярусов. Основное строительство пришлось на вторую половину XII века.",
+          en: "Vardzia is cut into the cliff of Erusheti Mountain, on the left bank of the Kura, thirty kilometres from Aspindza. The caves run along the rock for some five hundred metres and rise as many as nineteen tiers. The main work was done in the second half of the twelfth century."
+        },
+        {
+          ru: "В восточной части 79 отдельных пещерных жилищ, в восьми ярусах, всего 242 комнаты. Среди них двадцать пять винных погребов, а в пол вкопано 185 винных кувшинов. Нижний участок вырезан на высоте тысяча триста метров.",
+          en: "The eastern part has seventy-nine separate cave dwellings, in eight tiers, 242 rooms in all. Twenty-five of them are wine cellars, and 185 wine jars are sunk into the floor. The main lower site was carved at an elevation of thirteen hundred metres."
+        },
+        {
+          ru: "Между колокольней и главной церковью ещё сорок домов, в тринадцати ярусах, 165 комнат, и там есть трапезная с пекарней. Церковь Успения вырезана из скалы: 8,2 метра на 14,5, высота 9,2 метра. Это размеры церкви, не всего обрыва.",
+          en: "Between the bell tower and the main church there are another forty houses, in thirteen tiers, 165 rooms, with a refectory and a bakery. The Church of the Dormition is cut from the rock: 8.2 metres by 14.5, and 9.2 metres high. Those are the church's own measurements, not the whole cliff."
+        },
+        {
+          ru: "С 1985 года это историко-архитектурный музей-заповедник: ты ходишь по монастырю в скале. Воду сюда вели акведуком длиной 3,5 километра из деревни Зеда-Вардзия. За колокольней комплекс поднимается к кладбищу уже на те самые девятнадцать ярусов.",
+          en: "Since 1985 it has been a historical and architectural museum-reserve: you walk a monastery in the cliff. Water was brought by a 3.5 kilometre aqueduct from the village of Zeda Vardzia. Beyond the bell tower the complex climbs toward a cemetery, up to those same nineteen tiers."
+        }
+      ]
     },
     {
       id: "uplistsikhe",
@@ -6348,10 +6992,6 @@
       tours: [],
       sources: [
         {
-          url: "https://nominatim.openstreetmap.org/search?q=Uplistsikhe%2C+Georgia&format=jsonv2",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Uplistsikhe",
           label: "en.wikipedia.org"
         },
@@ -6360,11 +7000,29 @@
           label: "whc.unesco.org"
         },
         {
+          url: "https://nominatim.openstreetmap.org/search?q=Uplistsikhe%2C+Georgia&format=jsonv2",
+          label: "nominatim.openstreetmap.org"
+        },
+        {
           url: "https://www.wikidata.org/wiki/Q1351318",
           label: "wikidata.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "Уплисцихе это город, высеченный в скале на левом берегу Мтквари. До Гори английская Википедия считает около 10 километров, а текст заявки ЮНЕСКО говорит о 15 километрах к востоку от Гори: обе цифры оставляю как есть. Площадь сходится: в статье примерно 8 гектаров, в заявке почти 8.",
+          en: "Uplistsikhe is a town cut into the rock on the left bank of the Mtkvari. English Wikipedia puts it some 10 kilometres east of Gori, and the UNESCO tentative-list text says 15 kilometres east of Gori: both figures stay as they are. The area agrees: the article says approximately 8 hectares, the nomination says almost 8."
+        },
+        {
+          ru: "Комплекс делят на южную, среднюю и северную части, средняя самая большая. От центральной улицы расходятся узкие переулки и лестницы. Большинство пещер без украшений, а в главном зале потолок держат две колонны, вырезанные из той же скалы.",
+          en: "The complex splits into a southern, a middle and a northern part, and the middle is the largest. Narrow lanes and staircases run off a central street. Most of the caves have no decoration, and in the main hall two columns carved from the living rock hold the ceiling."
+        },
+        {
+          ru: "Постройки тут от раннего железного века до позднего Средневековья. В предварительном списке ЮНЕСКО место с 24 октября 2007 года. Это город, по которому ходят, с залами и переулками в камне.",
+          en: "The structures run from the Early Iron Age to the Late Middle Ages. It has been on the UNESCO tentative list since 24 October 2007. It is a town you walk, with halls and lanes in the stone."
+        }
+      ]
     },
     {
       id: "lalibela",
@@ -6419,6 +7077,14 @@
       tours: [],
       sources: [
         {
+          url: "https://whc.unesco.org/en/list/18/",
+          label: "whc.unesco.org"
+        },
+        {
+          url: "https://en.wikipedia.org/wiki/Lalibela",
+          label: "en.wikipedia.org"
+        },
+        {
           url: "https://www.wikidata.org/wiki/Q642979",
           label: "wikidata.org"
         },
@@ -6427,15 +7093,7 @@
           label: "nominatim.openstreetmap.org"
         },
         {
-          url: "https://whc.unesco.org/en/list/18/",
-          label: "whc.unesco.org"
-        },
-        {
           url: "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
-          label: "en.wikipedia.org"
-        },
-        {
-          url: "https://en.wikipedia.org/wiki/Lalibela",
           label: "en.wikipedia.org"
         },
         {
@@ -6443,7 +7101,25 @@
           label: "wikidata.org"
         }
       ],
-      report: "world"
+      report: "world",
+      story: [
+        {
+          ru: "В Лалибэле одиннадцать церквей вынули из цельной скалы, их не складывали из блоков. До Аддис-Абебы отсюда около 645 километров. Две группы стоят к северу и к югу от реки, которую называют Иордан, а Бете Гиоргис стоит отдельно и связан с остальными рвами.",
+          en: "In Lalibela the eleven churches were cut out of living rock. They were not stacked up from blocks. It is about 645 kilometres from Addis Ababa. Two groups stand north and south of a river called the Jordan, and Biete Ghiorgis stands apart, linked to the others by trenches."
+        },
+        {
+          ru: "Бете Медхани Алем, с пятью нефами, считают, возможно, самой большой монолитной церковью на свете. У Бете Гиоргис план крестом. В список ЮНЕСКО церкви внесли в 1978 году.",
+          en: "Biete Medhani Alem, with its five aisles, is believed to be the largest monolithic church in the world. Biete Ghiorgis has a cruciform plan. The churches were inscribed in 1978."
+        },
+        {
+          ru: "С веком страницы не сходятся. Основной текст ЮНЕСКО относит работу к XII веку и царю Лалибэле, а короткая строка на той же странице называет это Новым Иерусалимом XIII века. Английская статья о городе пишет, что церкви датируют от VII до XIII века, а по преданию их относят к правлению Лалибэлы, примерно 1181–1221 годы.",
+          en: "The century does not agree. UNESCO's main text attributes the work to the 12th century and to King Lalibela, while a short line on the same page calls this a 13th-century New Jerusalem. The English article on the town says the churches date from the 7th to the 13th centuries, and tradition dates them to Lalibela's reign, about 1181 to 1221."
+        },
+        {
+          ru: "По переписи 2007 года в самом городе было 17367 человек. Это жители города вокруг церквей. Не счёт людей, которые живут внутри вырезанных залов.",
+          en: "The 2007 census counted 17,367 people in the town itself. That is the town around the churches. It is not a count of people living inside the carved halls."
+        }
+      ]
     },
     {
       id: "petra",
@@ -6505,112 +7181,33 @@
       tours: [],
       sources: [
         {
-          url: "https://en.wikipedia.org/wiki/Petra",
-          label: "en.wikipedia.org"
-        },
-        {
           url: "https://whc.unesco.org/en/list/326/",
           label: "whc.unesco.org"
+        },
+        {
+          url: "https://en.wikipedia.org/wiki/Petra",
+          label: "en.wikipedia.org"
         },
         {
           url: "https://jordantimes.com/news/local/petra-nears-one-million-visitors-in-2023",
           label: "jordantimes.com"
         }
       ],
-      report: "world"
-    },
-    {
-      id: "montreal-underground",
-      nameRu: "Подземный город Монреаля",
-      nameEn: "Underground City, Montreal",
-      country: "Canada",
-      countryRu: "Канада",
-      lat: 45.503,
-      lon: -73.572,
-      kind: "city",
-      wow: null,
-      card: "Зимой подземным Монреалем, по оценке, пользуется хорошо больше полумиллиона человек в день: статья называет 32 км тоннелей. Рядом в том же тексте две разные площади — 12 км² и 4 млн м².",
-      photos: [
+      report: "world",
+      story: [
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Ville_souterraine_de_Montreal_04.JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Ville_souterraine_de_Montreal_04.JPG?width=360",
-          author: "Jeangagnon",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AVille_souterraine_de_Montreal_04.JPG"
+          ru: "Петра наполовину построена и наполовину вырезана в скале: набатейский город караванов между Красным морем и Мёртвым. Вокруг горы, изрезанные проходами. Вода тут отдельное чудо: система сбора позволяла жить в по сути сухой местности.",
+          en: "Petra is half built and half carved into the rock: a Nabataean caravan city between the Red Sea and the Dead Sea. The mountains around it are cut through with passages. The water is its own wonder: a collection system let people settle an essentially arid place."
         },
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Complexe_Desjardins%2C_tunnel_towards_Place_des_Arts_2005-10-22..JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Complexe_Desjardins%2C_tunnel_towards_Place_des_Arts_2005-10-22..JPG?width=360",
-          author: "No machine-readable author provided. Gene.arboit assumed (based on copyright claims).",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AComplexe_Desjardins%2C_tunnel_towards_Place_des_Arts_2005-10-22..JPG"
+          ru: "Большинство сегодняшних гостей заходят с востока, через Сик, ущелье местами всего 3–4 метра шириной. В конце, в песчаниковой стене, стоит Аль-Хазне, самая нарядная из руин. В I веке нашей эры, когда её вырезали, население Петры, по оценке, доходило до 20 тысяч.",
+          en: "Most visitors today come in from the east, through the Siq, a gorge only 3 to 4 metres wide in places. At the end, cut into the sandstone cliff, stands Al-Khazneh, the most elaborate of the ruins. In the 1st century AD, when it was carved, Petra's population peaked at an estimated 20,000."
         },
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Eaton_Center_inside.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Eaton_Center_inside.jpg?width=360",
-          author: "Alexcaban on en.Wikipédia Antaya upload on Commons",
-          license: "Public domain",
-          page: "https://commons.wikimedia.org/wiki/File%3AEaton_Center_inside.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_11_db.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Montreal_11_db.jpg?width=360",
-          author: "not stated in Commons metadata",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AMontreal_11_db.jpg"
+          ru: "В 2019 году сюда пришло 1,2 миллиона гостей. Идёшь в тени расселины, и вдруг впереди целый фасад, вынутый из скалы. Город при этом остаётся и выстроенным, и вырезанным: часть стоит на земле, часть в горе.",
+          en: "In 2019 the site received 1.2 million visitors. You walk in the shade of the cleft, and then a whole facade is there, taken out of the cliff. The city stays both built and carved: part of it stands on the ground, part of it is in the mountain."
         }
-      ],
-      models: [],
-      tours: [],
-      sources: [
-        {
-          url: "https://en.wikipedia.org/wiki/Underground_City,_Montreal",
-          label: "en.wikipedia.org"
-        }
-      ],
-      report: "world"
-    },
-    {
-      id: "toronto-path",
-      nameRu: "PATH, Торонто",
-      nameEn: "PATH, Toronto",
-      country: "Canada",
-      countryRu: "Канада",
-      lat: 43.65,
-      lon: -79.38,
-      kind: "city",
-      wow: null,
-      card: "PATH в Торонто — это больше 30 км подземных переходов, и в рабочий день по ним проходит больше 200 тысяч человек. Город пишет о 3,7 млн квадратных футов торговли, а Википедия — о 371 600 м²: цифры разные.",
-      photos: [
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/TunnelEatons.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/TunnelEatons.jpg?width=360",
-          author: "William James",
-          license: "Public domain",
-          page: "https://commons.wikimedia.org/wiki/File%3ATunnelEatons.jpg"
-        }
-      ],
-      models: [],
-      tours: [],
-      sources: [
-        {
-          url: "https://www.wikidata.org/wiki/Q917121",
-          label: "wikidata.org"
-        },
-        {
-          url: "https://www.toronto.ca/path/",
-          label: "toronto.ca"
-        },
-        {
-          url: "https://en.wikipedia.org/wiki/Path_(Toronto)",
-          label: "en.wikipedia.org"
-        },
-        {
-          url: "https://commons.wikimedia.org/wiki/File:TunnelEatons.jpg",
-          label: "commons.wikimedia.org"
-        }
-      ],
-      report: "world"
+      ]
     },
     {
       id: "helsinki-underground",
@@ -6671,6 +7268,18 @@
       tours: [],
       sources: [
         {
+          url: "https://en.wikipedia.org/wiki/Temppeliaukio_Church",
+          label: "en.wikipedia.org"
+        },
+        {
+          url: "https://fi.wikipedia.org/wiki/Itäkeskuksen_uimahalli",
+          label: "fi.wikipedia.org"
+        },
+        {
+          url: "https://palvelukartta.hel.fi/en/unit/41835",
+          label: "palvelukartta.hel.fi"
+        },
+        {
           url: "https://en.wikipedia.org/wiki/Helsinki_Metro",
           label: "en.wikipedia.org"
         },
@@ -6679,188 +7288,25 @@
           label: "hel.fi"
         },
         {
-          url: "https://en.wikipedia.org/wiki/Temppeliaukio_Church",
-          label: "en.wikipedia.org"
-        },
-        {
           url: "https://www.wikidata.org/wiki/Q5490394",
           label: "wikidata.org"
         }
       ],
-      report: "world"
-    },
-    {
-      id: "whity-umeda",
-      nameRu: "Whity Umeda",
-      nameEn: "Whity Umeda",
-      country: "Japan",
-      countryRu: "Япония",
-      lat: 34.70304,
-      lon: 135.499511,
-      kind: "city",
-      wow: null,
-      card: "Под Умэдой в Осаке с 29 ноября 1963 года работает подземный торговый город Whity. Площадь в квадратных метрах на официальной английской странице не указана.",
-      photos: [
+      report: "world",
+      story: [
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity-Umeda_in_201408.JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity-Umeda_in_201408.JPG?width=360",
-          author: "Mc681",
-          license: "CC BY-SA 4.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AWhity-Umeda_in_201408.JPG"
+          ru: "Это не один подземный город. Здесь два разных места, и хода между ними нет: церковь Темппелиаукио в гранитном холме и плавательный зал, который финская статья описывает как вырубленный в скале под землёй. Общий размер «подземного Хельсинки» из этих двух страниц не складывается.",
+          en: "This is not one underground city. These are two separate places, with no passage between them: Temppeliaukio Church in a granite hill, and a swimming hall the Finnish article describes as excavated underground into the rock. A single size for an underground Helsinki does not come out of these two pages."
         },
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda%2C_Umeda_underground_city_-_panoramio.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda%2C_Umeda_underground_city_-_panoramio.jpg?width=360",
-          author: "DVMG",
-          license: "CC BY 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AWhity_Umeda%2C_Umeda_underground_city_-_panoramio.jpg"
+          ru: "Темппелиаукио достроили в 1969 году братья Тимо и Туомо Суомалайнен, главный зал вынут прямо из гранита. Внутри около 750 мест, а на время служб, свадеб и похорон туристов не пускают. В 2019 году был рекорд, 938 тысяч гостей, в 2025-м церковь была четвёртой среди достопримечательностей Хельсинки, около полумиллиона человек, взрослый билет в часы осмотра 8 евро.",
+          en: "Temppeliaukio was finished in 1969 by the brothers Timo and Tuomo Suomalainen, and the main hall is cut straight into the granite. There are about 750 seats, and during services, weddings and funerals sightseers are kept out. In 2019 it hit a record 938,000 visitors, and in 2025 it ranked fourth among Helsinki's attractions with about half a million people. An adult ticket in sightseeing hours is 8 euros."
         },
         {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda_-_panoramio.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda_-_panoramio.jpg?width=360",
-          author: "DVMG",
-          license: "CC BY 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AWhity_Umeda_-_panoramio.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda_-_panoramio_(5).jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Whity_Umeda_-_panoramio_(5).jpg?width=360",
-          author: "DVMG",
-          license: "CC BY 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AWhity_Umeda_-_panoramio_%285%29.jpg"
+          ru: "Зал Итякескус, несмотря на имя, стоит в Пуотинхаръю. Финская статья говорит, что его вырубили под землю в скале, в два этажа, и одновременно там около тысячи человек. Городская карта услуг даёт большой бассейн 19 на 50 метров, глубина от 1,05 до 4 метров, вода около 27–28 градусов. Само слово «подземный» на этой городской странице не стоит, его даёт финская статья.",
+          en: "The Itäkeskus hall, despite the name, stands in Puotinharju. The Finnish article says it was excavated underground into the rock, on two floors, with room for about a thousand people at once. The city service map gives the large pool as 19 by 50 metres, depth 1.05 to 4 metres, water around 27 to 28 degrees, and that city page does not itself say the hall is underground."
         }
-      ],
-      models: [],
-      tours: [],
-      sources: [
-        {
-          url: "https://nominatim.openstreetmap.org/search?q=Whity+Umeda%2C+Osaka&format=jsonv2",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
-          url: "https://www.wikidata.org/wiki/Q11287453",
-          label: "wikidata.org"
-        },
-        {
-          url: "https://en.whity.osaka-chikagai.jp/",
-          label: "en.whity.osaka-chikagai.jp"
-        }
-      ],
-      report: "world"
-    },
-    {
-      id: "crysta-nagahori",
-      nameRu: "Crysta Nagahori",
-      nameEn: "Crysta Nagahori",
-      country: "Japan",
-      countryRu: "Япония",
-      lat: 34.67516,
-      lon: 135.502788,
-      kind: "city",
-      wow: null,
-      card: "Кристу Нагахори открыли 21 мая 1997 года как подземную торговую улицу под Нагахори в Осаке. Адрес на сайте — Южный Семба, подземная улица Нагахори; площадь в цифрах там не попалась.",
-      photos: [
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Crysta-Nagahori1.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Crysta-Nagahori1.jpg?width=360",
-          author: "not stated in Commons metadata",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3ACrysta-Nagahori1.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Crysta-Nagahori2.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Crysta-Nagahori2.jpg?width=360",
-          author: "not stated in Commons metadata",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3ACrysta-Nagahori2.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/CRYSTA_Nagahori_-_panoramio_-_Nagono.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/CRYSTA_Nagahori_-_panoramio_-_Nagono.jpg?width=360",
-          author: "Nagono",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3ACRYSTA_Nagahori_-_panoramio_-_Nagono.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/LOTTERIA_CRYSTA_NAGAHORI_store_on_10th_November_2012.JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/LOTTERIA_CRYSTA_NAGAHORI_store_on_10th_November_2012.JPG?width=360",
-          author: "Tokumeigakarinoaoshima",
-          license: "CC0",
-          page: "https://commons.wikimedia.org/wiki/File%3ALOTTERIA_CRYSTA_NAGAHORI_store_on_10th_November_2012.JPG"
-        }
-      ],
-      models: [],
-      tours: [],
-      sources: [
-        {
-          url: "https://nominatim.openstreetmap.org/search?q=Crysta+Nagahori%2C+Osaka&format=jsonv2",
-          label: "nominatim.openstreetmap.org"
-        },
-        {
-          url: "https://www.wikidata.org/wiki/Q11299217",
-          label: "wikidata.org"
-        }
-      ],
-      report: "world"
-    },
-    {
-      id: "yaesu",
-      nameRu: "Яэтика",
-      nameEn: "Yaesu Shopping Mall (Yaechika)",
-      country: "Japan",
-      countryRu: "Япония",
-      lat: 35.680167,
-      lon: 139.769472,
-      kind: "city",
-      wow: null,
-      card: "Под токийским вокзалом со стороны Яэсу с декабря 1958 года работает торговый подвал Яэтика, на первом и втором подземных этажах. Общую площадь сайт в прочитанном тексте не назвал.",
-      photos: [
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_shopping_mall_entrance_tokyo_station_2009.JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_shopping_mall_entrance_tokyo_station_2009.JPG?width=360",
-          author: "User:Kentin",
-          license: "CC BY-SA 3.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AYaesu_shopping_mall_entrance_tokyo_station_2009.JPG"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_Chikagai.JPG?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_Chikagai.JPG?width=360",
-          author: "Abasaa",
-          license: "Public domain",
-          page: "https://commons.wikimedia.org/wiki/File%3AYaesu_Chikagai.JPG"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_Shopping_Mall_20200607_145833.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Yaesu_Shopping_Mall_20200607_145833.jpg?width=360",
-          author: "Pcs34560 from jawp This photo was taken with Canon EOS 6D",
-          license: "Public domain",
-          page: "https://commons.wikimedia.org/wiki/File%3AYaesu_Shopping_Mall_20200607_145833.jpg"
-        },
-        {
-          src: "https://commons.wikimedia.org/wiki/Special:FilePath/Automatic_Shoe_Shine_Machine_at_Tokyo_station_Yaesu_Chikagai_2007.jpg?width=1000",
-          thumb: "https://commons.wikimedia.org/wiki/Special:FilePath/Automatic_Shoe_Shine_Machine_at_Tokyo_station_Yaesu_Chikagai_2007.jpg?width=360",
-          author: "Kohei Uesaka",
-          license: "CC BY 2.0",
-          page: "https://commons.wikimedia.org/wiki/File%3AAutomatic_Shoe_Shine_Machine_at_Tokyo_station_Yaesu_Chikagai_2007.jpg"
-        }
-      ],
-      models: [],
-      tours: [],
-      sources: [
-        {
-          url: "https://www.wikidata.org/wiki/Q10892516",
-          label: "wikidata.org"
-        },
-        {
-          url: "https://www.yaechika.com/",
-          label: "yaechika.com"
-        },
-        {
-          url: "https://en.wikipedia.org/wiki/Yaechika_Shopping_Mall",
-          label: "en.wikipedia.org"
-        }
-      ],
-      report: "world"
+      ]
     }
   ];
 
@@ -6911,7 +7357,17 @@
     noPhoto: { ru: "Свободного фото пока нет.", en: "No freely licensed photo yet." },
     source: { ru: "источник", en: "source" },
     close: { ru: "Закрыть", en: "Close" },
-    textRuOnly: { ru: "", en: "The story is in Russian for now; an English text is coming." }
+    textRuOnly: { ru: "", en: "The story is in Russian for now; an English text is coming." },
+    readMore: { ru: "Дальше по истории", en: "The rest of the story" },
+    readLess: { ru: "Свернуть", en: "Show less" },
+    spin: { ru: "Покрутить", en: "Spin it" },
+    fold: { ru: "Сложить", en: "Fold it" },
+    moreNearby: { ru: "Ещё {n} рядом. Нажми — список.", en: "{n} more nearby. Tap for the list." },
+    gathered: { ru: "Как собрано", en: "How this is made" },
+    legend: { ru: "Легенда", en: "Legend" },
+    legendAll: { ru: "Все места", en: "All places" },
+    legendModel: { ru: "Золотое кольцо — есть 3D", en: "Gold ring — a 3D model" },
+    legendPile: { ru: "Красный плюс — несколько мест вместе", en: "Red plus — several places together" }
   };
 
   // src/i18n.ts
@@ -6945,47 +7401,92 @@
     return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
   }
   function showCard(el, place, onClose) {
+    const paras = place.story?.length ? place.story.map((p) => lang === "ru" ? p.ru : p.en) : [place.card];
+    const many = paras.length > 1;
     const first = place.photos[0];
-    const hero = first ? `<img class="hero" id="hero" src="${esc(first.src)}" alt="${esc(placeName(place))}">` : `<div class="hero"></div>`;
-    const thumbs = place.photos.length > 1 ? `<h3>${t("photos")}</h3><div class="thumbs">${place.photos.map((p, i) => `<button data-i="${i}" title="${esc(p.author)}"><img src="${esc(p.thumb)}" loading="lazy" alt=""></button>`).join("")}</div>` : "";
-    const credit = first ? `<div class="credit-line" id="credit">${creditHtml(first)}</div>` : `<div class="credit-line">${t("noPhoto")}</div>`;
-    const models = place.models.length ? `<h3>${t("model3d")}</h3>${place.models.map((m, i) => `<button class="btn" data-model="${i}">${t("open")}: ${esc(m.title || t("model"))}</button>
-           <div class="credit-line">${esc(m.author)}, ${esc(m.license)}, <a href="${esc(m.page)}" target="_blank" rel="noopener">${t("source")}</a></div>`).join("")}<div id="viewer"></div>` : "";
-    const tours = place.tours.length ? `<h3>${t("tour")}</h3>${place.tours.map((t2) => `<a class="btn ghost" href="${esc(t2.url)}" target="_blank" rel="noopener">${esc(t2.provider.slice(0, 40))}</a>`).join("")}` : "";
-    const sources = place.sources.length ? `<h3>${t("sources")}</h3><ul class="sources">${place.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")}</ul>` : "";
-    el.innerHTML = `<button class="close" aria-label="${t("close")}">×</button>${hero}
-    <div class="body">
+    const beads = place.photos.length > 1 ? `<div class="beads">${place.photos.map((p, i) => `<button type="button" data-i="${i}" class="${i === 0 ? "on" : ""}" title="${esc(p.author)}"><img src="${esc(p.thumb)}" alt=""></button>`).join("")}</div>` : "";
+    const arrows = place.photos.length > 1 ? `<button type="button" class="arr prev" id="photo-prev" aria-label="${t("prev")}">‹</button><button type="button" class="arr next" id="photo-next" aria-label="${t("next")}">›</button>` : "";
+    const stamp = first ? `<figure class="stamp"><div class="frame-photo"><img class="hero" id="hero" src="${esc(first.src)}" alt="${esc(placeName(place))}">${arrows}</div>${beads}<figcaption id="credit">${creditHtml(first)}</figcaption></figure>` : `<figure class="stamp empty"><div class="hero"></div><figcaption>${t("noPhoto")}</figcaption></figure>`;
+    const model = place.models[0];
+    const viewer = model ? `<div id="viewer"><div class="viewer"><iframe title="3D" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen src="${esc(model.embed)}"></iframe></div><div class="credit-line">${esc(model.author)}, ${esc(model.license)}, <a href="${esc(model.page)}" target="_blank" rel="noopener">${t("source")}</a></div></div>` : `<div id="viewer" hidden></div>`;
+    const spin = model ? `<button type="button" class="btn" id="spin">${t("fold")}</button>` : "";
+    const tours = place.tours.map((tour) => `<a class="btn ghost" href="${esc(tour.url)}" target="_blank" rel="noopener">${esc(tour.provider.slice(0, 28))}</a>`).join("");
+    const sourcesBtn = place.sources.length ? `<button type="button" class="btn ghost" id="sources-btn">${t("sources")}</button>` : "";
+    const sources = place.sources.length ? `<ul class="sources" id="sources" hidden>${place.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")}</ul>` : "";
+    const note = !place.story?.length && lang === "en" ? `<div class="credit-line">${t("textRuOnly")}</div>` : "";
+    const curl = many ? `<button type="button" class="curl" id="curl" aria-label="${t("next")}"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M2,38 L38,38 L38,2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M38,2 L10,38" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>` : "";
+    el.innerHTML = `<button class="close" aria-label="${t("close")}">×</button>
+    <div class="plate">
+      ${viewer}
+      ${stamp}
       <h2>${esc(placeName(place))}</h2>
-      <div class="meta">${esc(lang === "ru" ? place.nameEn : place.nameRu)} · ${esc(placeCountry(place))}</div>
-      ${credit}
-      <p class="text">${esc(place.card)}</p>${lang === "en" ? `<div class="credit-line">${t("textRuOnly")}</div>` : ""}
-      ${thumbs}${models}${tours}${sources}
+      <div class="meta">${esc(placeCountry(place))} · ${esc(lang === "ru" ? place.nameEn : place.nameRu)}</div>
+      <div class="rule"></div>
+      <div class="leaf">
+        <p class="text">${esc(paras[0] || "")}</p>
+        ${note}
+        ${curl}
+        ${many ? `<div class="folio"><button type="button" id="leaf-prev" aria-label="${t("prev")}">‹</button><span id="folio">1 / ${paras.length}</span><button type="button" id="leaf-next" aria-label="${t("next")}">›</button></div>` : ""}
+      </div>
+      <div class="flaps">${spin}${tours}${sourcesBtn}</div>
+      ${sources}
     </div>`;
     el.hidden = false;
     el.scrollTop = 0;
+    let page = 0;
+    let photo = 0;
+    const text = el.querySelector(".leaf .text");
+    const turn = (dir) => {
+      if (!many) return;
+      text.classList.add("away");
+      window.setTimeout(() => {
+        page = (page + dir + paras.length) % paras.length;
+        text.textContent = paras[page];
+        const folio = el.querySelector("#folio");
+        if (folio) folio.textContent = `${page + 1} / ${paras.length}`;
+        text.classList.remove("away");
+      }, 140);
+    };
     el.querySelector(".close")?.addEventListener("click", () => {
       el.hidden = true;
       onClose();
     });
-    let current = 0;
-    el.querySelector("#hero")?.addEventListener("click", () => openPhoto(place, current));
-    el.querySelectorAll(".thumbs button").forEach(
-      (b) => b.addEventListener("click", () => {
-        current = Number(b.dataset.i);
-        const p = place.photos[current];
-        el.querySelector("#hero")?.setAttribute("src", p.src);
-        const c = el.querySelector("#credit");
-        if (c) c.innerHTML = creditHtml(p);
-        openPhoto(place, current);
-      })
+    el.querySelector("#curl")?.addEventListener("click", () => turn(1));
+    el.querySelector("#leaf-next")?.addEventListener("click", () => turn(1));
+    el.querySelector("#leaf-prev")?.addEventListener("click", () => turn(-1));
+    const showPhoto = (i) => {
+      if (!place.photos.length) return;
+      photo = (i + place.photos.length) % place.photos.length;
+      const p = place.photos[photo];
+      el.querySelector("#hero")?.setAttribute("src", p.src);
+      const c = el.querySelector("#credit");
+      if (c) c.innerHTML = creditHtml(p);
+      el.querySelectorAll(".beads button").forEach((n) => n.classList.toggle("on", Number(n.dataset.i) === photo));
+    };
+    el.querySelector("#hero")?.addEventListener("click", () => {
+      if (place.photos.length) openPhoto(place, photo);
+    });
+    el.querySelector("#photo-prev")?.addEventListener("click", () => showPhoto(photo - 1));
+    el.querySelector("#photo-next")?.addEventListener("click", () => showPhoto(photo + 1));
+    el.querySelectorAll(".beads button").forEach(
+      (b) => b.addEventListener("click", () => showPhoto(Number(b.dataset.i)))
     );
-    el.querySelectorAll("[data-model]").forEach(
-      (b) => b.addEventListener("click", () => {
-        const m = place.models[Number(b.dataset.model)];
-        const v = el.querySelector("#viewer");
-        if (v) v.innerHTML = `<div class="viewer"><iframe title="3D" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen src="${esc(m.embed)}"></iframe></div>`;
-      })
-    );
+    el.querySelector("#spin")?.addEventListener("click", () => {
+      const v = el.querySelector("#viewer");
+      const btn = el.querySelector("#spin");
+      if (!v || !btn) return;
+      const open = v.hidden;
+      v.hidden = !open;
+      if (open && !v.querySelector("iframe")) {
+        const m = place.models[0];
+        v.innerHTML = `<div class="viewer"><iframe title="3D" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen src="${esc(m.embed)}"></iframe></div><div class="credit-line">${esc(m.author)}, ${esc(m.license)}, <a href="${esc(m.page)}" target="_blank" rel="noopener">${t("source")}</a></div>`;
+      }
+      btn.textContent = open ? t("fold") : t("spin");
+    });
+    el.querySelector("#sources-btn")?.addEventListener("click", () => {
+      const list = el.querySelector("#sources");
+      if (list) list.hidden = !list.hidden;
+    });
   }
   function creditHtml(p) {
     return `${t("photoBy")}: ${esc(p.author || t("noAuthor"))}, ${esc(p.license)}, <a href="${esc(p.page)}" target="_blank" rel="noopener">Wikimedia Commons</a>`;
@@ -7001,12 +7502,12 @@
     let i = start2;
     const draw = () => {
       const p = place.photos[i];
+      const arrows = place.photos.length > 1 ? `<button type="button" class="arr prev" data-d="-1" aria-label="${t("prev")}">‹</button><button type="button" class="arr next" data-d="1" aria-label="${t("next")}">›</button><span class="lb-count">${i + 1} / ${place.photos.length}</span>` : "";
       lb.innerHTML = `<button class="lb-close" aria-label="${t("close")}">×</button>
-      <div class="lb-box"><img src="${esc(p.src)}" alt="${esc(placeName(place))}">
+      <div class="lb-box"><div class="lb-stage"><img src="${esc(p.src)}" alt="${esc(placeName(place))}">${arrows}</div>
         <div class="lb-info"><b>${esc(placeName(place))}</b>
           ${t("photoBy")}: ${esc(p.author || t("noAuthor"))}, ${esc(p.license)}.
           <a href="${esc(p.page)}" target="_blank" rel="noopener">${t("onCommons")}</a>
-          ${place.photos.length > 1 ? `<div class="lb-nav"><button data-d="-1">${t("prev")}</button><span>${i + 1} / ${place.photos.length}</span><button data-d="1">${t("next")}</button></div>` : ""}
         </div></div>`;
       lb.querySelector(".lb-close")?.addEventListener("click", close);
       lb.querySelectorAll("[data-d]").forEach((b) => b.addEventListener("click", (e) => {
@@ -7069,7 +7570,8 @@
   var root2 = svg.append("g");
   root2.append("path").attr("class", "sea").attr("d", path({ type: "Sphere" }));
   root2.append("path").attr("d", path({ type: "Sphere" })).attr("fill", "url(#waves)");
-  root2.append("path").attr("class", "grat").attr("d", path(graticule10()));
+  var grat = root2.append("path").attr("class", "grat").attr("d", path(graticule10()));
+  var gratHidden = false;
   var countries = world_default.features;
   var landLayer = root2.append("g");
   for (const f of countries) {
@@ -7110,32 +7612,235 @@
   var pins = places.map((place) => {
     const [x, y] = projection2([place.lon, place.lat]);
     const r = place.wow !== null && place.wow <= 5 ? 17 : 13;
-    const g = pinLayer.append("g").attr("class", "pin").attr("data-id", place.id);
+    const g = pinLayer.append("g").attr("class", "pin").classed("has-model", place.models.length > 0).attr("data-id", place.id);
     g.append("ellipse").attr("class", "shadow").attr("cx", 2).attr("cy", r - 2).attr("rx", r * 0.8).attr("ry", r * 0.3);
     g.append("circle").attr("class", "ring").attr("r", r + 5);
     g.append("circle").attr("class", "disc").attr("r", r);
     g.append("path").attr("class", "glyph").attr("d", GLYPHS[place.kind]).attr("transform", `scale(${r / 11})`);
-    g.append("text").attr("class", "name").attr("x", r + 6).attr("y", 4).text(placeName(place));
-    g.on("click", (ev) => {
-      ev.stopPropagation();
-      selectPlace(place.id);
-    });
-    return { place, x, y, r, g };
+    g.append("text").attr("class", "name").attr("x", r + 6).attr("y", 4).text(pinLabel(place));
+    const more = g.append("g").attr("class", "more").attr("transform", `translate(${-r + 1},${r - 2})`);
+    more.append("circle").attr("r", 9);
+    more.append("text").attr("dy", "0.35em");
+    more.append("title");
+    more.on("click", (ev) => onPinClick(ev, place.id));
+    g.append("g").attr("class", "stack").on("click", (ev) => ev.stopPropagation());
+    g.on("click", (ev) => onPinClick(ev, place.id));
+    return { place, x, y, r, g, node: g.node() };
   });
   var k = 1;
-  function layoutPins() {
-    const shown = [];
-    const order = [...pins].sort((a, b) => (a.place.wow ?? 50) - (b.place.wow ?? 50));
-    for (const pin of order) {
-      const sx = pin.x * k, sy = pin.y * k;
-      const clash = shown.some(([x, y]) => Math.hypot(x - sx, y - sy) < 30);
-      if (!clash) shown.push([sx, sy]);
-      pin.g.classed("dot", clash && pin.place.id !== currentId).attr("transform", `translate(${pin.x},${pin.y}) scale(${1 / k})`);
+  var openStack = null;
+  var legendFilter = null;
+  var grouped = /* @__PURE__ */ new Map();
+  var LEADS = /* @__PURE__ */ new Set(["derinkuyu", "wieliczka", "mary-kings-close", "whity-umeda"]);
+  var MAX_K = 280;
+  function rank(place) {
+    if (LEADS.has(place.id)) return 28;
+    return place.wow ?? 90;
+  }
+  function byRank(a, b) {
+    return rank(a.place) - rank(b.place) || (a.place.id < b.place.id ? -1 : 1);
+  }
+  var ranked = [...pins].sort(byRank);
+  function hits(a, b, pad) {
+    return a.x - pad < b.x + b.w && a.x + a.w + pad > b.x && a.y - pad < b.y + b.h && a.y + a.h + pad > b.y;
+  }
+  function pinLabel(place) {
+    const name = placeName(place).split("(")[0].trim();
+    return name.replace(/ underground city$/i, "");
+  }
+  var labelWidths = /* @__PURE__ */ new Map();
+  var lastVisibleKey = null;
+  var lastOpenStack = null;
+  var lastCurrentId = null;
+  function measureLabelWidths() {
+    const undo = [];
+    for (const pin of pins) {
+      const hidden = pin.g.style("display") === "none";
+      const nolabel = pin.g.classed("nolabel");
+      if (!hidden && !nolabel) continue;
+      if (hidden) pin.g.style("display", null);
+      if (nolabel) pin.g.classed("nolabel", false);
+      undo.push(() => {
+        if (hidden) pin.g.style("display", "none");
+        if (nolabel) pin.g.classed("nolabel", true);
+      });
+    }
+    try {
+      let changed = false;
+      for (const pin of pins) {
+        const measured = pin.g.select("text.name").node()?.getComputedTextLength() ?? 0;
+        if (!(measured > 0)) continue;
+        const width = measured + 8;
+        const prev = labelWidths.get(pin.place.id);
+        if (prev !== void 0 && Math.abs(prev - width) < 0.5) continue;
+        labelWidths.set(pin.place.id, width);
+        changed = true;
+      }
+      return changed;
+    } finally {
+      for (const fn of undo) fn();
     }
   }
-  var zoomer = zoom_default2().scaleExtent([1, 40]).translateExtent([[-200, -100], [W + 200, H + 100]]).on("zoom", (ev) => {
+  function labelWidth(pin) {
+    return (labelWidths.get(pin.place.id) ?? pinLabel(pin.place).length * 8.4) + 14;
+  }
+  function placeLabels(shown) {
+    const discs = [];
+    const labels = [];
+    for (const pin of shown) {
+      const sx = pin.x * k;
+      const sy = pin.y * k;
+      const chosen = pin.place.id === currentId;
+      pin.g.classed("nolabel", false);
+      discs.push({ cx: sx, cy: sy, r: pin.r });
+      const text = pin.g.select("text.name");
+      const width = labelWidth(pin);
+      const height = 22;
+      const gap = pin.r + 10;
+      const sides = [
+        { x: gap, y: 4, anchor: "start" },
+        { x: -gap, y: 4, anchor: "end" },
+        { x: 0, y: -(pin.r + 6), anchor: "middle" },
+        { x: 0, y: pin.r + 16, anchor: "middle" }
+      ];
+      let placed = null;
+      let fallback = null;
+      for (const side of sides) {
+        const left = side.anchor === "end" ? sx + side.x - width : side.anchor === "middle" ? sx - width / 2 : sx + side.x;
+        const box = { x: left, y: sy + side.y - 12, w: width, h: height };
+        const others = discs.slice(0, -1).map((d) => ({ x: d.cx - d.r, y: d.cy - d.r, w: d.r * 2, h: d.r * 2 }));
+        const blocked = [...others, ...labels].filter((d) => hits(box, d, 10)).length;
+        if (blocked === 0) {
+          text.attr("x", side.x).attr("y", side.y).attr("text-anchor", side.anchor);
+          placed = box;
+          break;
+        }
+        if (!fallback || blocked < fallback.hits) fallback = { side, box, hits: blocked };
+      }
+      if (!placed && fallback) {
+        text.attr("x", fallback.side.x).attr("y", fallback.side.y).attr("text-anchor", fallback.side.anchor);
+        if (chosen) placed = fallback.box;
+      }
+      if (placed) labels.push(placed);
+      pin.g.classed("nolabel", !placed);
+    }
+  }
+  function syncStack() {
+    const menu = document.getElementById("cluster");
+    if (!menu) return;
+    const hidden = openStack ? grouped.get(openStack) ?? [] : [];
+    const host = openStack ? pins.find((p) => p.place.id === openStack) : void 0;
+    menu.replaceChildren();
+    if (!host || hidden.length === 0) {
+      menu.hidden = true;
+      return;
+    }
+    const svgNS = "http://www.w3.org/2000/svg";
+    for (const other of [host, ...hidden]) {
+      const b = document.createElement("button");
+      b.type = "button";
+      const svg2 = document.createElementNS(svgNS, "svg");
+      svg2.setAttribute("viewBox", "-14 -14 28 28");
+      svg2.setAttribute("aria-hidden", "true");
+      const disc = document.createElementNS(svgNS, "circle");
+      disc.setAttribute("r", "11");
+      const mark = document.createElementNS(svgNS, "path");
+      mark.setAttribute("d", GLYPHS[other.place.kind]);
+      svg2.append(disc, mark);
+      const name = document.createElement("span");
+      name.textContent = pinLabel(other.place);
+      b.append(svg2, name);
+      b.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        openStack = null;
+        menu.hidden = true;
+        selectPlace(other.place.id);
+      });
+      menu.appendChild(b);
+    }
+    menu.hidden = false;
+    placeCluster();
+  }
+  function placeCluster() {
+    const menu = document.getElementById("cluster");
+    const host = openStack ? pins.find((p) => p.place.id === openStack) : void 0;
+    if (!menu || menu.hidden || !host) return;
+    const ctm = host.g.node()?.getScreenCTM();
+    if (!ctm) return;
+    const width = menu.offsetWidth || 240;
+    const height = menu.offsetHeight || 40;
+    const left = ctm.e + host.r + 16;
+    menu.style.left = `${Math.max(12, Math.min(left, window.innerWidth - width - 12))}px`;
+    menu.style.top = `${Math.max(12, Math.min(ctm.f - height / 2, window.innerHeight - height - 12))}px`;
+  }
+  function applyLegendDim(shown) {
+    const shownSet = new Set(shown);
+    for (const pin of pins) {
+      const neighbours = grouped.get(pin.place.id) ?? [];
+      const hasModel = pin.place.models.length > 0 || neighbours.some((n) => n.place.models.length > 0);
+      const hasPile = neighbours.length > 0;
+      const match = legendFilter === null || (legendFilter === "model" ? hasModel : hasPile);
+      pin.g.classed("dim", shownSet.has(pin) && !match);
+    }
+  }
+  function layoutPins() {
+    const shown = [];
+    grouped.clear();
+    for (const pin of ranked) {
+      const sx = pin.x * k;
+      const sy = pin.y * k;
+      let host = null;
+      let nearest = Infinity;
+      for (const other of shown) {
+        const screen = Math.hypot(other.x * k - sx, other.y * k - sy);
+        if (screen < other.r + pin.r + 10 && screen < nearest) {
+          nearest = screen;
+          host = other;
+        }
+      }
+      pin.g.interrupt();
+      pin.node.setAttribute("transform", `translate(${pin.x},${pin.y}) scale(${1 / k})`);
+      if (host) {
+        const list = grouped.get(host.place.id) ?? [];
+        list.push(pin);
+        grouped.set(host.place.id, list);
+        continue;
+      }
+      shown.push(pin);
+    }
+    const visibleKey = shown.map((p) => p.place.id).join("\0");
+    applyLegendDim(shown);
+    if (visibleKey === lastVisibleKey && openStack === lastOpenStack && currentId === lastCurrentId) {
+      placeCluster();
+      return;
+    }
+    lastVisibleKey = visibleKey;
+    lastOpenStack = openStack;
+    lastCurrentId = currentId;
+    const visible = new Set(shown);
+    for (const pin of pins) {
+      if (visible.has(pin)) pin.g.style("display", null);
+      else pin.g.style("display", "none");
+    }
+    placeLabels(shown);
+    for (const pin of pins) {
+      const hidden = grouped.get(pin.place.id) ?? [];
+      pin.g.classed("has-more", hidden.length > 0);
+      const more = pin.g.select(".more");
+      more.select("text").text("+" + hidden.length);
+      more.select("title").text(t("moreNearby").replace("{n}", String(hidden.length)));
+    }
+    syncStack();
+  }
+  var zoomer = zoom_default2().scaleExtent([1, MAX_K]).translateExtent([[-200, -100], [W + 200, H + 100]]).on("zoom", (ev) => {
     root2.attr("transform", ev.transform.toString());
     k = ev.transform.k;
+    svg.style("--z", k.toFixed(3));
+    const hideGrat = k > 3.5;
+    if (hideGrat !== gratHidden) {
+      gratHidden = hideGrat;
+      grat.attr("display", hideGrat ? "none" : null);
+    }
     decorLayer.attr("opacity", Math.min(0.5, 0.22 + (k - 1) * 0.1));
     layoutPins();
   });
@@ -7153,12 +7858,37 @@
     });
     layoutPins();
   }
+  function flyToPoint(x, y, scale) {
+    const s = Math.max(1, Math.min(MAX_K, scale));
+    const t2 = identity2.translate(W / 2 - x * s, H / 2 - y * s).scale(s);
+    svg.transition().duration(900).call(zoomer.transform, t2);
+  }
+  function scaleWhereVisible(pin) {
+    let need = 6;
+    for (const other of pins) {
+      if (other === pin) continue;
+      const earlier = rank(other.place) < rank(pin.place) || rank(other.place) === rank(pin.place) && other.place.id < pin.place.id;
+      if (!earlier) continue;
+      const geo = Math.hypot(other.x - pin.x, other.y - pin.y);
+      if (geo > 0) need = Math.max(need, (other.r + pin.r + 14) / geo * 1.05);
+    }
+    return Math.min(MAX_K, need);
+  }
   function flyTo(id2) {
     const pin = pins.find((p) => p.place.id === id2);
     if (!pin) return;
-    const scale = 6;
-    const t2 = identity2.translate(W / 2 - pin.x * scale, H / 2 - pin.y * scale).scale(scale);
-    svg.transition().duration(900).call(zoomer.transform, t2);
+    flyToPoint(pin.x, pin.y, scaleWhereVisible(pin));
+  }
+  function onPinClick(ev, id2) {
+    ev.stopPropagation();
+    const members = grouped.get(id2);
+    if (members && members.length > 0) {
+      openStack = openStack === id2 ? null : id2;
+      layoutPins();
+      return;
+    }
+    openStack = null;
+    selectPlace(id2);
   }
   document.getElementById("random")?.addEventListener("click", () => {
     const others = places.filter((p) => p.id !== currentId);
@@ -7167,8 +7897,18 @@
     flyTo(pick.id);
   });
   svg.on("click", () => {
+    openStack = null;
+    layoutPins();
   });
+  measureLabelWidths();
   layoutPins();
+  function refreshLabelWidths() {
+    if (!measureLabelWidths()) return;
+    lastVisibleKey = null;
+    layoutPins();
+  }
+  void document.fonts.ready.then(refreshLabelWidths);
+  window.addEventListener("resize", refreshLabelWidths);
   var fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash) selectPlace(fromHash);
   decorLayer.attr("opacity", 0.22);
@@ -7179,27 +7919,49 @@
     if (el) el.textContent = text;
   };
   setText("h1", t("title"));
-  setText("tagline", `${t("tagline")}. ${t("hint")}.`);
+  setText("tagline", t("tagline"));
   setText("random", t("random"));
-  setText("credit", `${t("footer")} ${t("iconsCredit")}`);
-  setText("introTitle", t("title"));
-  setText("introTag", t("tagline"));
-  setText("enter", t("enter"));
-  setText("introNote", t("introInspired"));
+  setText("legend", t("legend"));
+  setText("legend-all", t("legendAll"));
+  setText("legend-model", t("legendModel"));
+  setText("legend-pile", t("legendPile"));
+  setText("credit-bar", t("gathered"));
+  function syncLegendRows() {
+    const plate = document.getElementById("legend-plate");
+    if (!plate) return;
+    for (const btn of Array.from(plate.querySelectorAll("button[data-filter]"))) {
+      const key = btn.dataset.filter ?? "";
+      const on = key === "all" ? legendFilter === null : key === legendFilter;
+      btn.classList.toggle("on", on);
+      btn.setAttribute("aria-pressed", String(on));
+    }
+  }
+  document.getElementById("legend")?.addEventListener("click", () => {
+    const plate = document.getElementById("legend-plate");
+    const bar = document.getElementById("legend");
+    if (!plate || !bar) return;
+    plate.hidden = !plate.hidden;
+    bar.setAttribute("aria-expanded", String(!plate.hidden));
+  });
+  document.getElementById("legend-plate")?.addEventListener("click", (ev) => {
+    const btn = ev.target.closest("button[data-filter]");
+    if (!btn) return;
+    const key = btn.getAttribute("data-filter");
+    if (key === "model" || key === "pile") legendFilter = legendFilter === key ? null : key;
+    else legendFilter = null;
+    syncLegendRows();
+    layoutPins();
+  });
+  syncLegendRows();
+  setText("credit-body", `${t("footer")} ${t("iconsCredit")} ${t("introInspired")}`);
+  document.getElementById("credit-bar")?.addEventListener("click", () => {
+    const body = document.getElementById("credit-body");
+    const bar = document.getElementById("credit-bar");
+    if (!body || !bar) return;
+    body.hidden = !body.hidden;
+    bar.setAttribute("aria-expanded", String(!body.hidden));
+  });
   var langBtn = document.getElementById("lang");
   langBtn.textContent = lang === "ru" ? "EN" : "RU";
   langBtn.addEventListener("click", () => setLang(lang === "ru" ? "en" : "ru"));
-  var head = document.getElementById("head");
-  function leaveIntro() {
-    document.body.classList.remove("intro-on");
-    window.setTimeout(() => head.classList.add("min"), 1200);
-  }
-  if (fromHash) {
-    leaveIntro();
-  } else {
-    document.getElementById("enter")?.addEventListener("click", leaveIntro);
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === "Escape") leaveIntro();
-    }, { once: true });
-  }
 })();

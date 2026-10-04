@@ -1,0 +1,47 @@
+// One entry = one {ru, en} pair. The type needs BOTH, so a missing translation fails tsc.
+export interface Phrase { ru: string; en: string }
+
+export const dict = {
+  pageTitle: { ru: "Чудериус — путешествие по чудесам мира", en: "Wonderius — a journey through the wonders of the world" },
+  title: { ru: "Чудериус", en: "Wonderius" },
+  tagline: { ru: "Атлас чудес мира", en: "An atlas of the world's wonders" },
+  hint: { ru: "Тыкай в значок на карте", en: "Tap a pin on the map" },
+  introInspired: {
+    ru: "Вдохновлено книгой «Карты» Александры и Даниэля Мизелиньских: мы взяли у неё дух и приёмы, рисунки у нас свои.",
+    en: "Inspired by the book \"Maps\" by Aleksandra and Daniel Mizielinski: we took its spirit and ideas; the drawings are our own.",
+  },
+  enter: { ru: "Открыть атлас", en: "Open the atlas" },
+  random: { ru: "Случайное чудо", en: "Random wonder" },
+  footer: {
+    ru: "Фото и материалы принадлежат авторам: у каждого указаны автор, лицензия и источник. Данные собраны из открытых источников, где цифры расходятся, это отмечено.",
+    en: "Photos and materials belong to their authors: author, licence and source are shown. Data comes from open sources; where figures disagree, it is noted.",
+  },
+  iconsCredit: { ru: "Значки: Delapouite и Lorc, game-icons.net, CC BY 3.0.", en: "Icons: Delapouite and Lorc, game-icons.net, CC BY 3.0." },
+  prev: { ru: "Назад", en: "Back" },
+  next: { ru: "Дальше", en: "Next" },
+  onCommons: { ru: "страница на Wikimedia Commons", en: "page on Wikimedia Commons" },
+  photos: { ru: "Фотографии", en: "Photos" },
+  model3d: { ru: "3D-модель", en: "3D model" },
+  open: { ru: "Открыть", en: "Open" },
+  model: { ru: "модель", en: "model" },
+  tour: { ru: "Виртуальная прогулка", en: "Virtual walk" },
+  sources: { ru: "Откуда это известно", en: "Where this comes from" },
+  photoBy: { ru: "Фото", en: "Photo" },
+  noAuthor: { ru: "автор не указан", en: "author not stated" },
+  noPhoto: { ru: "Свободного фото пока нет.", en: "No freely licensed photo yet." },
+  source: { ru: "источник", en: "source" },
+  close: { ru: "Закрыть", en: "Close" },
+  textRuOnly: { ru: "", en: "The story is in Russian for now; an English text is coming." },
+  readMore: { ru: "Дальше по истории", en: "The rest of the story" },
+  readLess: { ru: "Свернуть", en: "Show less" },
+  spin: { ru: "Покрутить", en: "Spin it" },
+  fold: { ru: "Сложить", en: "Fold it" },
+  moreNearby: { ru: "Ещё {n} рядом. Нажми — список.", en: "{n} more nearby. Tap for the list." },
+  gathered: { ru: "Как собрано", en: "How this is made" },
+  legend: { ru: "Легенда", en: "Legend" },
+  legendAll: { ru: "Все места", en: "All places" },
+  legendModel: { ru: "Золотое кольцо — есть 3D", en: "Gold ring — a 3D model" },
+  legendPile: { ru: "Красный плюс — несколько мест вместе", en: "Red plus — several places together" },
+} satisfies Record<string, Phrase>;
+
+export type Key = keyof typeof dict;
